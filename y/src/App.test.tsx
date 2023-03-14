@@ -10,7 +10,7 @@ describe('App', () => {
       screen.getByRole('heading', {
         level: 1,
       })
-    ).toHaveTextContent('Hello, Olya');
+    ).toHaveTextContent('Main Page');
   });
   it('Renders error page if invalid path', () => {
     render(

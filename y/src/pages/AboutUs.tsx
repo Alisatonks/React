@@ -1,11 +1,14 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-function AboutUs() {
-  return (
-    <>
-      <h1>About Us</h1>
-      <Link to="/">Go Home</Link>
-    </>
-  );
+class AboutUs extends React.PureComponent {
+  render() {
+    return (
+      <>
+        <h1>About Us</h1>
+        <Link to="/">Go Home</Link>
+      </>
+    );
+  }
 }
 export default AboutUs;

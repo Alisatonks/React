@@ -1,11 +1,13 @@
-import { Link } from 'react-router-dom';
+import React from 'react';
+import Header from '../components/Header';
 
-function Home() {
-  return (
-    <>
-      <h1>Hello, Olya</h1>
-      <Link to="/About us">About us</Link>
-    </>
-  );
+class Home extends React.PureComponent {
+  render() {
+    return (
+      <div>
+        <Header />
+      </div>
+    );
+  }
 }
 export default Home;
