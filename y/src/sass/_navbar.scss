@@ -1,0 +1,30 @@
+.nav {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+    &__ul{
+        display: flex;
+        padding: 0px;
+        gap: 30px;
+    }
+
+    &__li{
+       color: red; 
+       list-style: none;
+    }
+    &__link{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            color: $color-link-hover;
+        }
+    }
+}
+.active {
+    color: $color-link-hover;
+}

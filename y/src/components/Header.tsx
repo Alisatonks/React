@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
 class Header extends React.PureComponent {
   render() {
     return (
-      <header>
-        <h1>Main Page</h1>
-        <Link to="/About us">About us</Link>
+      <header className="header">
+        <Navbar />
       </header>
     );
   }

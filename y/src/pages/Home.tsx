@@ -6,6 +6,7 @@ class Home extends React.PureComponent {
     return (
       <div>
         <Header />
+        <h1>Main page</h1>
       </div>
     );
   }
