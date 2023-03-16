@@ -16,20 +16,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 2rem;
     }
     &__btn {
-        background: linear-gradient(90deg, rgba(144,11,176,1) 0%, rgba(199,41,207,1) 100%);
+        @include buttons;
         padding: 0.8rem 2rem;
-        border-radius: 20px;
-        border: none;
-        color: white;
         font-size: 18px;
-        cursor: pointer;
-        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-        transition: 0.3s;
-        &:hover {
-            opacity: 0.9;
-        }
     }
 
 }
