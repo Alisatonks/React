@@ -20,3 +20,7 @@ export type ICardProps2 = {
   rating: number;
   stock: number;
 };
+
+export interface IState {
+  inputText: string;
+}

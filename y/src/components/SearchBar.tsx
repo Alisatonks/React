@@ -1,19 +1,38 @@
-import React from 'react';
+import React, { ChangeEvent } from 'react';
+import { IState } from '../types/types';
 
-class SearchBar extends React.PureComponent {
-  //   constructor(props: string) {
-  //     super(props);
-  //     this.state = {
-  //       val: '',
-  //     };
-  //   }
+class SearchBar extends React.PureComponent<string, IState> {
+  constructor(props: string) {
+    super(props);
+    this.onChangeValue = this.onChangeValue.bind(this);
+    this.state = {
+      inputText: localStorage.getItem('inputValue') || '',
+    };
+  }
 
-  //   handler() {
-  //     const { val } = this.state;
-  //     console.log(val);
-  //   }
+  componentDidMount() {
+    const valueInStore: string = localStorage.getItem('inputValue') || '';
+    this.setState({ inputText: valueInStore || '' });
+  }
+
+  componentDidUpdate(nextprops: string, nextState: IState) {
+    localStorage.setItem('inputValue', nextState.inputText);
+  }
+
+  componentWillUnmount(): void {
+    const { inputText } = this.state;
+    localStorage.setItem('inputValue', inputText);
+  }
+
+  onChangeValue(e: ChangeEvent<HTMLInputElement>) {
+    const target = e.target as HTMLInputElement;
+    this.setState({
+      inputText: target.value,
+    });
+  }
 
   render() {
+    const { inputText } = this.state;
     return (
       <form className="search__form">
         <input
@@ -21,7 +40,8 @@ class SearchBar extends React.PureComponent {
           name="search"
           placeholder="Enter your text"
           className="search__input"
-          //   onInput={this.handler}
+          value={inputText}
+          onChange={this.onChangeValue}
         />
         <button type="submit" className="search__btn">
           Search
