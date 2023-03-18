@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import sloth from '../assets/png/sloth.png';
 
 class Error extends React.PureComponent {
   render() {
@@ -10,11 +11,7 @@ class Error extends React.PureComponent {
           Go Home
         </Link>
         <div className="error__sloth-cont">
-          <img
-            src="../src/assets/png/sloth.png"
-            className="error__sloth"
-            alt="404_img"
-          />
+          <img src={sloth} className="error__sloth" alt="404_img" />
         </div>
       </div>
     );

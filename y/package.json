@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "build": "npm run lint && tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "lint": "npx eslint"
+    "lint": "npx eslint ./src"
   },
   "dependencies": {
     "node-sass": "^8.0.0",
