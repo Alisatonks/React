@@ -5,8 +5,7 @@ class AboutUs extends React.PureComponent {
   render() {
     return (
       <div>
-        <Header />
-        <h1>About us</h1>
+        <Header content="About Us" />
       </div>
     );
   }

@@ -1,8 +1,8 @@
 import React, { ChangeEvent } from 'react';
-import { IState } from '../types/types';
+import { IState, IProps } from '../types/types';
 
-class SearchBar extends React.PureComponent<string, IState> {
-  constructor(props: string) {
+class SearchBar extends React.PureComponent<IProps, IState> {
+  constructor(props: IProps) {
     super(props);
     this.onChangeValue = this.onChangeValue.bind(this);
     this.state = {
@@ -13,10 +13,6 @@ class SearchBar extends React.PureComponent<string, IState> {
   componentDidMount() {
     const valueInStore: string = localStorage.getItem('inputValue') || '';
     this.setState({ inputText: valueInStore || '' });
-  }
-
-  componentDidUpdate(nextprops: string, nextState: IState) {
-    localStorage.setItem('inputValue', nextState.inputText);
   }
 
   componentWillUnmount(): void {

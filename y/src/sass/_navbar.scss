@@ -1,8 +1,9 @@
 .nav {
     color: white;
-    width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
+
 
     &__ul{
         display: flex;

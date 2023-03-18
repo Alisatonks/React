@@ -8,9 +8,9 @@ class Home extends React.PureComponent {
   render() {
     return (
       <div>
-        <Header />
+        <Header content="Main Page" />
         <main className="home">
-          <SearchBar />
+          <SearchBar key="searchBarKey" />
           <div className="card__wrapper">
             {cardsData.products.map((el) => {
               return (

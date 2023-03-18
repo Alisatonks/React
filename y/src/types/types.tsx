@@ -24,3 +24,11 @@ export type ICardProps2 = {
 export interface IState {
   inputText: string;
 }
+
+export type IProps = {
+  key: string;
+};
+
+export type IH1Content = {
+  content: string;
+};
