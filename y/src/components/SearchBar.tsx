@@ -39,7 +39,7 @@ class SearchBar extends React.PureComponent<IProps, IState> {
           value={inputText}
           onChange={this.onChangeValue}
         />
-        <button type="submit" className="search__btn">
+        <button type="button" className="search__btn">
           Search
         </button>
       </form>

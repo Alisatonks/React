@@ -1,3 +1,7 @@
+@mixin smallDesktop {
+    @media (max-width: $small-desktop) { @content; }
+}
+
 @mixin tablet {
     @media (max-width: $tablet-width) { @content; }
 }
