@@ -16,6 +16,11 @@ class Navbar extends React.PureComponent {
               About us
             </NavLink>
           </li>
+          <li className="nav__li">
+            <NavLink to="/Form Page" className="nav__link">
+              Form Page
+            </NavLink>
+          </li>
         </ul>
       </nav>
     );
