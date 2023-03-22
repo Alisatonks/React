@@ -21,7 +21,7 @@ class SearchBar extends React.PureComponent<IProps, IState> {
   }
 
   onChangeValue(e: ChangeEvent<HTMLInputElement>) {
-    const target = e.target as HTMLInputElement;
+    const { target } = e;
     this.setState({
       inputText: target.value,
     });

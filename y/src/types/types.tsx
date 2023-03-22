@@ -32,3 +32,20 @@ export type IProps = {
 export type IH1Content = {
   content: string;
 };
+
+export type IFormProps = {
+  handleSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
+  inputText: React.RefObject<HTMLInputElement>;
+};
+
+export type IFormCardData = {
+  title: string;
+};
+
+export type IFormPageState = {
+  formCards: IFormCardData[];
+};
+
+export type IFormContainerProps = {
+  addCard: (data: IFormCardData) => void;
+};

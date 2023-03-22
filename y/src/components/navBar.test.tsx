@@ -10,6 +10,6 @@ describe('NavBar component', () => {
         <Navbar />
       </HashRouter>
     );
-    expect(screen.getByRole('navigation'));
+    expect(screen.getByRole('navigation')).toBeInTheDocument();
   });
 });
