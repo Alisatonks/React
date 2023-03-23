@@ -11,7 +11,7 @@ export class App extends React.PureComponent {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About us" element={<AboutUs />} />
-        <Route path="/Form Page" element={<FormPage />} />
+        <Route path="/Form Page" element={<FormPage key="formPageKey" />} />
         <Route path="*" element={<Error />} />
       </Routes>
     );

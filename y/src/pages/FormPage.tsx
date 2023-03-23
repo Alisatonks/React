@@ -3,10 +3,10 @@ import React from 'react';
 import FormContainer from '../components/form/FormContainer';
 import Header from '../components/Header';
 import FormCardList from '../components/form/FormCardList';
-import { IFormCardData, IFormPageState } from '../types/types';
+import { IFormCardData, IFormPageState, IProps } from '../types/types';
 
-class FormPage extends React.PureComponent<string, IFormPageState> {
-  constructor(props: string) {
+class FormPage extends React.PureComponent<IProps, IFormPageState> {
+  constructor(props: IProps) {
     super(props);
     this.addCard = this.addCard.bind(this);
     this.state = {

@@ -1,0 +1,4 @@
+.card__img-form{
+    @include cardImg;
+    object-fit: contain;
+}

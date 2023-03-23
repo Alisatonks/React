@@ -2,6 +2,7 @@ import React from 'react';
 import CardName from './CardName';
 import CardInfo from './CardInfo';
 import CardBtns from './CardBtns';
+import CardImg from './CardImg';
 import { ICardProps } from '../../types/types';
 
 class Card extends React.PureComponent<ICardProps> {
@@ -11,9 +12,7 @@ class Card extends React.PureComponent<ICardProps> {
     return (
       <div className="card">
         <CardName name={name} brand={brand} />
-        <div className="card__img-wrapper">
-          <img src={source} alt="product" className="card__img" />
-        </div>
+        <CardImg source={source} alt="product" myClass="card__img" />
         <CardInfo
           category={category}
           discount={discount}

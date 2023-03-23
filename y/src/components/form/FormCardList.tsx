@@ -8,7 +8,19 @@ class FormCardList extends React.PureComponent<IFormPageState> {
     return (
       <div className="card__wrapper">
         {formCards.map((el) => {
-          return <FormCard key={el.title} title={el.title} />;
+          return (
+            <FormCard
+              key={el.id}
+              title={el.title}
+              date={el.date}
+              id={el.id}
+              reason={el.reason}
+              concent={el.concent}
+              radioReturn={el.radioReturn}
+              radioExchange={el.radioExchange}
+              inputFile={el.inputFile}
+            />
+          );
         })}
       </div>
     );
