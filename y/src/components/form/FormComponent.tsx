@@ -15,9 +15,12 @@ class FormComponent extends React.PureComponent<IFormProps> {
       inputFile,
     } = this.props;
     return (
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="form">
         <input type="text" placeholder="Enter product name" ref={inputText} />
-        <input type="date" placeholder="Enter purchase date" ref={inputDate} />
+        <label htmlFor="date">
+          Enter purchase date
+          <input type="date" ref={inputDate} name="date" />
+        </label>
         <label htmlFor="returnReason">
           Choose return reason
           <select name="returnReason" ref={inputDrop}>
@@ -28,7 +31,12 @@ class FormComponent extends React.PureComponent<IFormProps> {
         </label>
         <label htmlFor="concent">
           I have read the terms of Return Policy and agree with it
-          <input type="checkbox" name="concent" ref={concent} />
+          <input
+            type="checkbox"
+            name="concent"
+            className="form__checkbox"
+            ref={concent}
+          />
         </label>
         <InputRadio
           htmlFor="radioReturn"
@@ -44,9 +52,16 @@ class FormComponent extends React.PureComponent<IFormProps> {
         />
         <label htmlFor="loadFile">
           Choose your image
-          <input type="file" name="loadFile" ref={inputFile} />
+          <input
+            type="file"
+            name="loadFile"
+            className="input-file"
+            ref={inputFile}
+          />
         </label>
-        <button type="submit">Submit</button>
+        <button type="submit" className="form__submit">
+          Submit
+        </button>
       </form>
     );
   }

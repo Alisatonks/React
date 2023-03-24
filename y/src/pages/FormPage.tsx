@@ -23,7 +23,7 @@ class FormPage extends React.PureComponent<IProps, IFormPageState> {
   render() {
     const { formCards } = this.state;
     return (
-      <div>
+      <div className="form-page">
         <Header content="Form Page" />
         <h2 className="form-page__title">
           Please fullfil the following form to return your purchase
