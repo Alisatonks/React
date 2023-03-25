@@ -16,8 +16,7 @@ class FormCardList extends React.PureComponent<IFormPageState> {
               id={el.id}
               reason={el.reason}
               concent={el.concent}
-              radioReturn={el.radioReturn}
-              radioExchange={el.radioExchange}
+              radio={el.radio}
               inputFile={el.inputFile}
             />
           );

@@ -1,8 +1,17 @@
 import React, { createRef } from 'react';
 import FormComponent from './FormComponent';
-import { IFormContainerProps } from '../../types/types';
+import { IFormContainerProps, CardContainerState } from '../../types/types';
+import {
+  validateRadio,
+  validateTitle,
+  validateDate,
+  validateFile,
+} from './validationFunctions';
 
-class FormContainer extends React.PureComponent<IFormContainerProps> {
+class FormContainer extends React.PureComponent<
+  IFormContainerProps,
+  CardContainerState
+> {
   inputText: React.RefObject<HTMLInputElement>;
 
   inputDate: React.RefObject<HTMLInputElement>;
@@ -26,32 +35,51 @@ class FormContainer extends React.PureComponent<IFormContainerProps> {
     this.radioReturn = createRef<HTMLInputElement>();
     this.radioExchange = createRef<HTMLInputElement>();
     this.inputFile = createRef<HTMLInputElement>();
+    this.state = {
+      cardCreated: false,
+    };
   }
 
   handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    const object = this.createObject();
-    const { addCard } = this.props;
-    if (object) {
-      addCard(object);
+    const validation = this.createValidationObject();
+    const { addCard, addValErr } = this.props;
+    const valFiltered = Object.entries(validation).filter(
+      ([_ignored, value]) => value === false
+    );
+    const keysWithErr = valFiltered.map(([key, _ignored]) => key);
+    if (!Object.values(validation).includes(false)) {
+      addCard(validation);
+      addValErr([]);
+      this.setState({ cardCreated: true });
+      setTimeout(() => {
+        this.setState({ cardCreated: false });
+      }, 3000);
+    } else {
+      addValErr(keysWithErr);
     }
     e.preventDefault();
   };
 
-  createObject() {
-    const file = this.inputFile.current!.files![0];
+  createValidationObject() {
     return {
       id: Date.now(),
-      title: this.inputText!.current!.value,
-      date: this.inputDate!.current!.value,
-      reason: this.inputDrop!.current!.value,
-      concent: this.checkbox!.current!.checked,
-      radioReturn: this.radioReturn!.current!.checked,
-      radioExchange: this.radioExchange!.current!.checked,
-      inputFile: URL.createObjectURL(file),
+      title: validateTitle(this.inputText),
+      date: validateDate(this.inputDate),
+      reason:
+        this.inputDrop.current?.value !== '-choose the reason-'
+          ? this.inputDrop.current?.value
+          : false,
+      concent: this.checkbox.current?.checked
+        ? this.checkbox.current?.checked
+        : false,
+      radio: validateRadio(this.radioReturn, this.radioExchange),
+      inputFile: validateFile(this.inputFile),
     };
   }
 
   render() {
+    const { errors } = this.props;
+    const { cardCreated } = this.state;
     return (
       <FormComponent
         handleSubmit={this.handleSubmit}
@@ -62,6 +90,8 @@ class FormContainer extends React.PureComponent<IFormContainerProps> {
         radioReturn={this.radioReturn}
         radioExchange={this.radioExchange}
         inputFile={this.inputFile}
+        errors={errors}
+        cardCreated={cardCreated}
       />
     );
   }

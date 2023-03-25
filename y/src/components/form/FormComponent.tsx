@@ -13,21 +13,38 @@ class FormComponent extends React.PureComponent<IFormProps> {
       radioReturn,
       radioExchange,
       inputFile,
+      errors,
+      cardCreated,
     } = this.props;
     return (
       <form onSubmit={handleSubmit} className="form">
         <input type="text" placeholder="Enter product name" ref={inputText} />
+        <div className="valError">
+          {errors && errors.includes('title')
+            ? 'The name should start from the capital letter and be at least 3 chars long'
+            : null}
+        </div>
         <label htmlFor="date">
           Enter purchase date
           <input type="date" ref={inputDate} name="date" />
+          <div className="valError">
+            {errors && errors.includes('date')
+              ? 'Please enter tha past date'
+              : null}
+          </div>
         </label>
         <label htmlFor="returnReason">
           Choose return reason
           <select name="returnReason" ref={inputDrop}>
-            <option>-chose the reason-</option>
+            <option>-choose the reason-</option>
             <option>Defect</option>
             <option>Other (didn&apos;t fit, etc)</option>
           </select>
+          <div className="valError">
+            {errors && errors.includes('reason')
+              ? 'Please choose the reason of return'
+              : null}
+          </div>
         </label>
         <label htmlFor="concent">
           I have read the terms of Return Policy and agree with it
@@ -37,6 +54,11 @@ class FormComponent extends React.PureComponent<IFormProps> {
             className="form__checkbox"
             ref={concent}
           />
+          <div className="valError">
+            {errors && errors.includes('concent')
+              ? 'Please read the return policy and if you agree mark the checkbox'
+              : null}
+          </div>
         </label>
         <InputRadio
           htmlFor="radioReturn"
@@ -50,6 +72,11 @@ class FormComponent extends React.PureComponent<IFormProps> {
           ref1={radioExchange}
           id="radioExchange"
         />
+        <div className="valError">
+          {errors && errors.includes('radio')
+            ? 'Please choose return option'
+            : null}
+        </div>
         <label htmlFor="loadFile">
           Choose your image
           <input
@@ -58,10 +85,20 @@ class FormComponent extends React.PureComponent<IFormProps> {
             className="input-file"
             ref={inputFile}
           />
+          <div className="valError">
+            {errors && errors.includes('inputFile')
+              ? 'Please choose an image'
+              : null}
+          </div>
         </label>
         <button type="submit" className="form__submit">
           Submit
         </button>
+        {cardCreated && (
+          <div className="form__message">
+            The card has been successfully created!
+          </div>
+        )}
       </form>
     );
   }

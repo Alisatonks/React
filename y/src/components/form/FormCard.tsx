@@ -4,7 +4,7 @@ import { IFormCardData } from '../../types/types';
 
 class FormCard extends React.PureComponent<IFormCardData> {
   render() {
-    const { title, date, reason, concent, radioReturn, inputFile } = this.props;
+    const { title, date, reason, concent, radio, inputFile } = this.props;
     return (
       <div className="card">
         <CardImg source={inputFile} alt="your img" myClass="form__card-img" />
@@ -16,7 +16,7 @@ class FormCard extends React.PureComponent<IFormCardData> {
         </div>
         <div className="card__info-details">
           Return Option:
-          {radioReturn ? 'Return money' : 'Exchange to another product'}
+          {radio}
         </div>
       </div>
     );

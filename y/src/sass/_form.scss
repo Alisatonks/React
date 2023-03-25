@@ -6,7 +6,7 @@
     padding: 3rem;
     display: flex;
     flex-direction: column;
-    max-width: 60%;
+    max-width: 700px;
     margin: 0 auto;
     &__card-img {
       @include cardImg;
@@ -42,6 +42,10 @@
             font-size: 15px;
         }
     }
+    &__message {
+        padding: 1rem;
+        margin: 0 auto;
+    }
     
 }
 
@@ -72,4 +76,8 @@ label {
     &:hover {
         border: none;
     }
+}
+
+.valError {
+    color: red;
 }

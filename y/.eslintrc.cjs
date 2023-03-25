@@ -36,5 +36,7 @@ module.exports = {
     '@typescript-eslint/no-var-reqiures': 'off',
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
+    'no-unused-vars': ['error', { destructuredArrayIgnorePattern: '^_' }],
+    '@typescript-eslint/no-unused-vars': 'off',
   },
 };

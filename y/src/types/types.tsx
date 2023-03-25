@@ -29,7 +29,7 @@ export type IH1Content = {
 };
 
 export type ImgProps = {
-  source: string;
+  source: string | boolean;
   alt: string;
   myClass: string;
 };
@@ -43,25 +43,29 @@ export type IFormProps = {
   radioReturn: React.RefObject<HTMLInputElement>;
   radioExchange: React.RefObject<HTMLInputElement>;
   inputFile: React.RefObject<HTMLInputElement>;
+  errors: string[];
+  cardCreated: boolean;
 };
 
 export type IFormCardData = {
   id: number;
-  title: string;
-  date: string;
-  reason: string;
+  title: string | boolean;
+  date: string | boolean;
+  reason: string | boolean | undefined;
   concent: boolean;
-  radioReturn: boolean;
-  radioExchange: boolean;
-  inputFile: string;
+  radio: string | boolean;
+  inputFile: string | boolean;
 };
 
 export type IFormPageState = {
   formCards: IFormCardData[];
+  validationErrors: string[];
 };
 
 export type IFormContainerProps = {
   addCard: (data: IFormCardData) => void;
+  addValErr: (data: string[]) => void;
+  errors: string[];
 };
 
 export type InputRadioProps = {
@@ -69,4 +73,8 @@ export type InputRadioProps = {
   content: string;
   ref1: React.RefObject<HTMLInputElement>;
   id: string;
+};
+
+export type CardContainerState = {
+  cardCreated: boolean;
 };
