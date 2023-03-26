@@ -14,10 +14,7 @@ class FormCard extends React.PureComponent<IFormCardData> {
         <div className="card__info-details">
           Concent with return policy: {concent ? 'Yes' : 'No'}
         </div>
-        <div className="card__info-details">
-          Return Option:
-          {radio}
-        </div>
+        <div className="card__info-details">Return Option: {radio}</div>
       </div>
     );
   }

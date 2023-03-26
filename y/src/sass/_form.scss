@@ -3,6 +3,7 @@
 }
 
 .form{
+    position: relative;
     padding: 3rem;
     display: flex;
     flex-direction: column;
@@ -44,7 +45,13 @@
     }
     &__message {
         padding: 1rem;
-        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        background: linear-gradient(90deg, rgba(144,11,176,1) 0%, rgba(199,41,207,1) 100%);
+        border-radius: 10px;
     }
     
 }

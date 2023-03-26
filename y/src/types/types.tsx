@@ -78,3 +78,7 @@ export type InputRadioProps = {
 export type CardContainerState = {
   cardCreated: boolean;
 };
+
+export interface IFormCardListProps {
+  formCards: IFormCardData[];
+}

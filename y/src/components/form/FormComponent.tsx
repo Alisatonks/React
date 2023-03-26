@@ -83,6 +83,7 @@ class FormComponent extends React.PureComponent<IFormProps> {
             type="file"
             name="loadFile"
             className="input-file"
+            accept="image/jpeg,image/png,image/gif"
             ref={inputFile}
           />
           <div className="valError">

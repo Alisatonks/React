@@ -6,6 +6,8 @@ import {
   validateTitle,
   validateDate,
   validateFile,
+  validateReason,
+  validateConcent,
 } from './validationFunctions';
 
 class FormContainer extends React.PureComponent<
@@ -54,6 +56,7 @@ class FormContainer extends React.PureComponent<
       setTimeout(() => {
         this.setState({ cardCreated: false });
       }, 3000);
+      e.currentTarget.reset();
     } else {
       addValErr(keysWithErr);
     }
@@ -65,13 +68,8 @@ class FormContainer extends React.PureComponent<
       id: Date.now(),
       title: validateTitle(this.inputText),
       date: validateDate(this.inputDate),
-      reason:
-        this.inputDrop.current?.value !== '-choose the reason-'
-          ? this.inputDrop.current?.value
-          : false,
-      concent: this.checkbox.current?.checked
-        ? this.checkbox.current?.checked
-        : false,
+      reason: validateReason(this.inputDrop),
+      concent: validateConcent(this.checkbox),
       radio: validateRadio(this.radioReturn, this.radioExchange),
       inputFile: validateFile(this.inputFile),
     };

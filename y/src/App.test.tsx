@@ -36,4 +36,16 @@ describe('App', () => {
       })
     ).toHaveTextContent('About Us');
   });
+  it('Renders about form page', () => {
+    render(
+      <MemoryRouter initialEntries={['/Form Page']}>
+        <App />
+      </MemoryRouter>
+    );
+    expect(
+      screen.getByRole('heading', {
+        level: 1,
+      })
+    ).toHaveTextContent('Form Page');
+  });
 });

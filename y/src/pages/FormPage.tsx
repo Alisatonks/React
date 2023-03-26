@@ -1,4 +1,3 @@
-/* eslint-disable react/destructuring-assignment */
 import React from 'react';
 import FormContainer from '../components/form/FormContainer';
 import Header from '../components/Header';
@@ -39,7 +38,7 @@ class FormPage extends React.PureComponent<IProps, IFormPageState> {
         <FormContainer
           addCard={this.addCard}
           addValErr={this.addValErr}
-          errors={this.state.validationErrors}
+          errors={validationErrors}
         />
         <FormCardList
           formCards={formCards}
