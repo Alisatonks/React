@@ -56,14 +56,14 @@ class FormContainer extends React.PureComponent<
       setTimeout(() => {
         this.setState({ cardCreated: false });
       }, 3000);
-      e.currentTarget.reset();
+      this.resetForm();
     } else {
       addValErr(keysWithErr);
     }
     e.preventDefault();
   };
 
-  createValidationObject() {
+  private createValidationObject() {
     return {
       id: Date.now(),
       title: validateTitle(this.inputText),
@@ -73,6 +73,30 @@ class FormContainer extends React.PureComponent<
       radio: validateRadio(this.radioReturn, this.radioExchange),
       inputFile: validateFile(this.inputFile),
     };
+  }
+
+  private resetForm() {
+    if (this.inputText.current) {
+      this.inputText.current.value = '';
+    }
+    if (this.inputDate.current) {
+      this.inputDate.current.value = '';
+    }
+    if (this.inputDrop.current) {
+      this.inputDrop.current.value = '';
+    }
+    if (this.checkbox.current) {
+      this.checkbox.current.checked = false;
+    }
+    if (this.radioReturn.current) {
+      this.radioReturn.current.checked = false;
+    }
+    if (this.radioExchange.current) {
+      this.radioExchange.current.checked = false;
+    }
+    if (this.inputFile.current) {
+      this.inputFile.current.value = '';
+    }
   }
 
   render() {
