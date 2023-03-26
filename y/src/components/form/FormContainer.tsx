@@ -28,6 +28,8 @@ class FormContainer extends React.PureComponent<
 
   inputFile: React.RefObject<HTMLInputElement>;
 
+  formRef: React.RefObject<HTMLFormElement>;
+
   constructor(props: IFormContainerProps) {
     super(props);
     this.inputText = createRef<HTMLInputElement>();
@@ -37,6 +39,7 @@ class FormContainer extends React.PureComponent<
     this.radioReturn = createRef<HTMLInputElement>();
     this.radioExchange = createRef<HTMLInputElement>();
     this.inputFile = createRef<HTMLInputElement>();
+    this.formRef = createRef<HTMLFormElement>();
     this.state = {
       cardCreated: false,
     };
@@ -76,27 +79,7 @@ class FormContainer extends React.PureComponent<
   }
 
   private resetForm() {
-    if (this.inputText.current) {
-      this.inputText.current.value = '';
-    }
-    if (this.inputDate.current) {
-      this.inputDate.current.value = '';
-    }
-    if (this.inputDrop.current) {
-      this.inputDrop.current.value = '';
-    }
-    if (this.checkbox.current) {
-      this.checkbox.current.checked = false;
-    }
-    if (this.radioReturn.current) {
-      this.radioReturn.current.checked = false;
-    }
-    if (this.radioExchange.current) {
-      this.radioExchange.current.checked = false;
-    }
-    if (this.inputFile.current) {
-      this.inputFile.current.value = '';
-    }
+    this.formRef.current?.reset();
   }
 
   render() {
@@ -111,6 +94,7 @@ class FormContainer extends React.PureComponent<
         radioReturn={this.radioReturn}
         radioExchange={this.radioExchange}
         inputFile={this.inputFile}
+        formRef={this.formRef}
         cardCreated={cardCreated}
       />
     );

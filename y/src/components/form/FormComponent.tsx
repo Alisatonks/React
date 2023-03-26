@@ -14,12 +14,13 @@ class FormComponent extends React.PureComponent<IFormProps> {
       radioReturn,
       radioExchange,
       inputFile,
+      formRef,
       cardCreated,
     } = this.props;
     return (
       <ValidationContext.Consumer>
         {(validationErrors) => (
-          <form onSubmit={handleSubmit} className="form">
+          <form onSubmit={handleSubmit} ref={formRef} className="form">
             <input
               type="text"
               placeholder="Enter product name"

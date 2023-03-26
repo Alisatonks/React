@@ -43,6 +43,7 @@ export type IFormProps = {
   radioReturn: React.RefObject<HTMLInputElement>;
   radioExchange: React.RefObject<HTMLInputElement>;
   inputFile: React.RefObject<HTMLInputElement>;
+  formRef: React.RefObject<HTMLFormElement>;
   cardCreated: boolean;
 };
 
