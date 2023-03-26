@@ -43,7 +43,6 @@ export type IFormProps = {
   radioReturn: React.RefObject<HTMLInputElement>;
   radioExchange: React.RefObject<HTMLInputElement>;
   inputFile: React.RefObject<HTMLInputElement>;
-  errors: string[];
   cardCreated: boolean;
 };
 
@@ -65,7 +64,6 @@ export type IFormPageState = {
 export type IFormContainerProps = {
   addCard: (data: IFormCardData) => void;
   addValErr: (data: string[]) => void;
-  errors: string[];
 };
 
 export type InputRadioProps = {

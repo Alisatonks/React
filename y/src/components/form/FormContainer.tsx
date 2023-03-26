@@ -76,7 +76,6 @@ class FormContainer extends React.PureComponent<
   }
 
   render() {
-    const { errors } = this.props;
     const { cardCreated } = this.state;
     return (
       <FormComponent
@@ -88,7 +87,6 @@ class FormContainer extends React.PureComponent<
         radioReturn={this.radioReturn}
         radioExchange={this.radioExchange}
         inputFile={this.inputFile}
-        errors={errors}
         cardCreated={cardCreated}
       />
     );

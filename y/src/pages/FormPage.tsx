@@ -3,6 +3,7 @@ import FormContainer from '../components/form/FormContainer';
 import Header from '../components/Header';
 import FormCardList from '../components/form/FormCardList';
 import { IFormCardData, IFormPageState, IProps } from '../types/types';
+import ValidationContext from '../components/form/Context';
 
 class FormPage extends React.PureComponent<IProps, IFormPageState> {
   constructor(props: IProps) {
@@ -35,11 +36,10 @@ class FormPage extends React.PureComponent<IProps, IFormPageState> {
         <h2 className="form-page__title">
           Please fullfil the following form to return your purchase
         </h2>
-        <FormContainer
-          addCard={this.addCard}
-          addValErr={this.addValErr}
-          errors={validationErrors}
-        />
+        <ValidationContext.Provider value={validationErrors}>
+          <FormContainer addCard={this.addCard} addValErr={this.addValErr} />
+        </ValidationContext.Provider>
+
         <FormCardList
           formCards={formCards}
           validationErrors={validationErrors}
