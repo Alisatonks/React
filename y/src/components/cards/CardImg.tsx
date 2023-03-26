@@ -6,7 +6,11 @@ class CardImg extends React.PureComponent<ImgProps> {
     const { source, alt, myClass } = this.props;
     return (
       <div className="card__img-wrapper">
-        <img src={source} alt={alt} className={myClass} />
+        <img
+          src={typeof source === 'string' ? source : ''}
+          alt={alt}
+          className={myClass}
+        />
       </div>
     );
   }

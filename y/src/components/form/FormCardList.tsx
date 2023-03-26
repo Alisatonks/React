@@ -1,8 +1,8 @@
 import React from 'react';
-import { IFormCardListProps } from '../../types/types';
+import { IFormPageState } from '../../types/types';
 import FormCard from './FormCard';
 
-class FormCardList extends React.PureComponent<IFormCardListProps> {
+class FormCardList extends React.PureComponent<IFormPageState> {
   render() {
     const { formCards } = this.props;
     return (

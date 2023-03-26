@@ -24,7 +24,7 @@ describe('FormCardList', () => {
   ];
 
   it('should render a list of FormCards', () => {
-    render(<FormCardList formCards={formCards} />);
+    render(<FormCardList formCards={formCards} validationErrors={[]} />);
 
     expect(screen.getByText(/test Product 1/gi)).toBeInTheDocument();
     expect(screen.getByText(/test Product 2/gi)).toBeInTheDocument();
