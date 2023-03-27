@@ -1,0 +1,44 @@
+.search {
+    &__input {
+        padding: 1rem;
+        min-width: 70%;
+        border-radius: 20px;
+        outline: none;
+        border: 1px solid $color-link-hover;
+        transition: 0.3s;
+        &:hover {
+            border: 1px solid rgb(231, 165, 231); 
+            box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        }
+        @include mobile {
+            min-width: 60%;
+            padding: 0.8rem;
+        }
+    }
+    &__form {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+        @include smallDesktop {
+            width: 80%;;
+        }
+        @include tablet {
+            width: 100%;;
+        }
+        @include mobile {
+            margin-bottom: 1rem;
+        }
+    }
+    &__btn {
+        @include buttons;
+        padding: 0.8rem 2rem;
+        font-size: 18px;
+        @include mobile {
+            padding: 0.8rem 1rem;
+            font-size: 15px;
+        }
+    }
+
+}

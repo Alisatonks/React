@@ -1,0 +1,90 @@
+.form-page {
+    padding: 2rem;
+}
+
+.form{
+    position: relative;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+    &__card-img {
+      @include cardImg;
+      object-fit: contain;  
+    }
+    &__card-title {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 1rem 0;
+    }
+    &__checkbox {
+        width: 20px;
+        height: 20px;
+    }
+    &__label-radio {
+        align-self: start;
+        margin: 0.6rem;
+    }
+    &__input-file {
+        border: none;
+        &:hover {
+            border: none;
+        }
+    }
+    &__submit {
+        @include buttons;
+        width: 30%;
+        margin: 0 auto;
+        padding: 0.8rem 2rem;
+        font-size: 18px;
+        @include mobile {
+            padding: 0.8rem 1rem;
+            font-size: 15px;
+        }
+    }
+    &__message {
+        padding: 1rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        background: linear-gradient(90deg, rgba(144,11,176,1) 0%, rgba(199,41,207,1) 100%);
+        border-radius: 10px;
+    }
+    
+}
+
+input,
+select {
+    padding: 0.8rem;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid #e3e3e3;
+    outline: none;
+    transition: 0.3s;
+    &:hover {
+        border: 2px solid $color-link-hover;
+    }
+}
+
+label {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.input-file {
+    border: none;
+    &:hover {
+        border: none;
+    }
+}
+
+.valError {
+    color: red;
+}

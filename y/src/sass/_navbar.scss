@@ -1,0 +1,31 @@
+.nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    &__ul{
+        display: flex;
+        padding: 0px;
+        gap: 30px;
+    }
+
+    &__li{
+       color: red; 
+       list-style: none;
+    }
+    &__link{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            color: $color-link-hover;
+        }
+    }
+}
+.active {
+    color: $color-link-hover;
+}
