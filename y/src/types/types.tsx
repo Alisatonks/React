@@ -70,10 +70,37 @@ export type IFormContainerProps = {
 export type InputRadioProps = {
   htmlFor: string;
   content: string;
-  ref1: React.RefObject<HTMLInputElement>;
+  ref: React.RefObject<HTMLInputElement>;
   id: string;
 };
 
 export type CardContainerState = {
   cardCreated: boolean;
+};
+
+export type IFormValues = {
+  title: string;
+  date: string;
+  reason: string;
+  concent: boolean;
+  radio: string;
+  inputFile: File[];
+};
+
+export type IPropsFormComponentHook = {
+  updateFormCards: (object: IObjectValues) => void;
+};
+
+export type IObjectsCardList = {
+  formCards: IObjectValues[];
+};
+
+export type IObjectValues = {
+  id: number;
+  title: string;
+  date: string;
+  reason: string;
+  concent: boolean;
+  radio: string;
+  inputFile: string;
 };

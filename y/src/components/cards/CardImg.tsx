@@ -1,18 +1,16 @@
 import React from 'react';
 import { ImgProps } from '../../types/types';
 
-class CardImg extends React.PureComponent<ImgProps> {
-  render() {
-    const { source, alt, myClass } = this.props;
-    return (
-      <div className="card__img-wrapper">
-        <img
-          src={typeof source === 'string' ? source : ''}
-          alt={alt}
-          className={myClass}
-        />
-      </div>
-    );
-  }
+function CardImg(props: ImgProps) {
+  const { source, alt, myClass } = props;
+  return (
+    <div className="card__img-wrapper">
+      <img
+        src={typeof source === 'string' ? source : ''}
+        alt={alt}
+        className={myClass}
+      />
+    </div>
+  );
 }
 export default CardImg;

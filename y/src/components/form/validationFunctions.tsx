@@ -1,61 +1,29 @@
-export const validateRadio = (
-  radioReturn: React.RefObject<HTMLInputElement>,
-  radioExchange: React.RefObject<HTMLInputElement>
-): string | false => {
-  if (radioReturn.current?.checked) {
-    return 'Return money';
+export const validateTitle = (inputText: string): boolean => {
+  if (!inputText) {
+    return false;
   }
-  if (radioExchange.current?.checked) {
-    return 'Exchange to another product';
-  }
-  return false;
-};
-
-export const validateTitle = (
-  inputText: React.RefObject<HTMLInputElement>
-): string | false => {
   const regExp = /^[A-Z][a-zA-Z0-9\s]{2,}$/;
-  const { value } = inputText.current ?? {};
-  return value && regExp.test(value) ? value : false;
+  return regExp.test(inputText);
 };
 
-export const validateDate = (
-  date: React.RefObject<HTMLInputElement>
-): string | false => {
-  let res: string | boolean = false;
-  if (date.current) {
-    const splitedDate = date.current.value.split('-');
-    const dateObj = new Date(
-      Number(splitedDate[0]),
-      Number(splitedDate[1]) - 1,
-      Number(splitedDate[2])
-    );
-    const today = new Date();
-    if (dateObj.getTime() <= today.getTime()) {
-      res = date.current.value;
-    }
+export const validateDate = (date: string): boolean => {
+  if (!date) {
+    return false;
   }
-  return res;
+  const splitedDate = date.split('-');
+  const dateObj = new Date(
+    Number(splitedDate[0]),
+    Number(splitedDate[1]) - 1,
+    Number(splitedDate[2])
+  );
+  const today = new Date();
+  return dateObj.getTime() <= today.getTime();
 };
 
-export const validateFile = (
-  inputFile: React.RefObject<HTMLInputElement>
-): string | false => {
-  const { files } = inputFile.current || {};
-  const file = files && files[0];
-  return file ? URL.createObjectURL(file) : false;
+export const validateReason = (inputDrop: string): boolean => {
+  return inputDrop !== '-choose the reason-';
 };
 
-export const validateReason = (
-  inputDrop: React.RefObject<HTMLSelectElement>
-): string | false => {
-  return inputDrop.current?.value !== '-choose the reason-'
-    ? inputDrop.current!.value
-    : false;
-};
-
-export const validateConcent = (
-  checkbox: React.RefObject<HTMLInputElement>
-): boolean | false => {
-  return checkbox.current?.checked ? checkbox.current?.checked : false;
+export const validateConcent = (checkbox: boolean): boolean => {
+  return checkbox === true;
 };
