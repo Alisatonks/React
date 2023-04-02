@@ -16,35 +16,10 @@ export type ICardProps2 = Pick<
   'category' | 'discount' | 'rating' | 'stock'
 >;
 
-export interface IState {
-  inputText: string;
-}
-
-export type IProps = {
-  key: string;
-};
-
-export type IH1Content = {
-  content: string;
-};
-
 export type ImgProps = {
   source: string | boolean;
   alt: string;
   myClass: string;
-};
-
-export type IFormProps = {
-  handleSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
-  inputText: React.RefObject<HTMLInputElement>;
-  inputDate: React.RefObject<HTMLInputElement>;
-  inputDrop: React.RefObject<HTMLSelectElement>;
-  concent: React.RefObject<HTMLInputElement>;
-  radioReturn: React.RefObject<HTMLInputElement>;
-  radioExchange: React.RefObject<HTMLInputElement>;
-  inputFile: React.RefObject<HTMLInputElement>;
-  formRef: React.RefObject<HTMLFormElement>;
-  cardCreated: boolean;
 };
 
 export type IFormCardData = {
@@ -57,23 +32,29 @@ export type IFormCardData = {
   inputFile: string | boolean;
 };
 
-export type IFormPageState = {
-  formCards: IFormCardData[];
-  validationErrors: string[];
+export type IFormValues = {
+  title: string;
+  date: string;
+  reason: string;
+  concent: boolean;
+  radio: string;
+  inputFile: File[];
 };
 
-export type IFormContainerProps = {
-  addCard: (data: IFormCardData) => void;
-  addValErr: (data: string[]) => void;
+export type IPropsFormComponentHook = {
+  updateFormCards: (object: IObjectValues) => void;
 };
 
-export type InputRadioProps = {
-  htmlFor: string;
-  content: string;
-  ref1: React.RefObject<HTMLInputElement>;
-  id: string;
+export type IObjectsCardList = {
+  formCards: IObjectValues[];
 };
 
-export type CardContainerState = {
-  cardCreated: boolean;
+export type IObjectValues = {
+  id: number;
+  title: string;
+  date: string;
+  reason: string;
+  concent: boolean;
+  radio: string;
+  inputFile: string;
 };

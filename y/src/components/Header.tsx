@@ -1,16 +1,20 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
-import { IH1Content } from '../types/types';
 
-class Header extends React.PureComponent<IH1Content> {
-  render() {
-    const { content } = this.props;
-    return (
-      <header className="header">
-        <h1>{content}</h1>
-        <Navbar />
-      </header>
-    );
+function Header() {
+  const location = useLocation();
+
+  function defineLocation() {
+    const pageName = location.pathname.replace('%20', ' ').slice(1);
+    return pageName || 'Main Page';
   }
+
+  return (
+    <header className="header">
+      <h1>{defineLocation()}</h1>
+      <Navbar />
+    </header>
+  );
 }
 export default Header;

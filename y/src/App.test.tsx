@@ -2,6 +2,7 @@ import { describe, it } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { App, WrappedApp } from './App';
+import Header from './components/Header';
 
 describe('App', () => {
   it('Renders my App', () => {
@@ -27,19 +28,19 @@ describe('App', () => {
   it('Renders about us page', () => {
     render(
       <MemoryRouter initialEntries={['/About us']}>
-        <App />
+        <Header />
       </MemoryRouter>
     );
     expect(
       screen.getByRole('heading', {
         level: 1,
       })
-    ).toHaveTextContent('About Us');
+    ).toHaveTextContent('About us');
   });
   it('Renders about form page', () => {
     render(
       <MemoryRouter initialEntries={['/Form Page']}>
-        <App />
+        <Header />
       </MemoryRouter>
     );
     expect(

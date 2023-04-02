@@ -1,13 +1,6 @@
 import React from 'react';
-import Header from '../components/Header';
 
-class AboutUs extends React.PureComponent {
-  render() {
-    return (
-      <div>
-        <Header content="About Us" />
-      </div>
-    );
-  }
+function AboutUs() {
+  return <div>This is About us Page</div>;
 }
 export default AboutUs;

@@ -1,51 +1,27 @@
-import React from 'react';
-import FormContainer from '../components/form/FormContainer';
-import Header from '../components/Header';
-import FormCardList from '../components/form/FormCardList';
-import { IFormCardData, IFormPageState, IProps } from '../types/types';
-import ValidationContext from '../components/form/Context';
+import React, { useCallback, useState } from 'react';
+import FormComponentHook from '../components/form/FormComponentHook';
+import CardList from '../components/form/FormCardList';
+import { IObjectValues } from '../types/types';
 
-class FormPage extends React.PureComponent<IProps, IFormPageState> {
-  constructor(props: IProps) {
-    super(props);
-    this.addCard = this.addCard.bind(this);
-    this.addValErr = this.addValErr.bind(this);
-    this.state = {
-      formCards: [],
-      validationErrors: [],
-    };
-  }
+function FormPage() {
+  const [formCards, setFormCards] = useState<IObjectValues[]>([]);
 
-  addCard(data: IFormCardData) {
-    this.setState((prevState) => ({
-      formCards: [...prevState.formCards, data],
-    }));
-  }
+  const updateFormCards = useCallback(
+    (object: IObjectValues) => {
+      setFormCards([...formCards, object]);
+    },
+    [formCards]
+  );
 
-  addValErr(data: string[]) {
-    this.setState(() => ({
-      validationErrors: data,
-    }));
-  }
-
-  render() {
-    const { formCards, validationErrors } = this.state;
-    return (
-      <div className="form-page">
-        <Header content="Form Page" />
-        <h2 className="form-page__title">
-          Please fullfil the following form to return your purchase
-        </h2>
-        <ValidationContext.Provider value={validationErrors}>
-          <FormContainer addCard={this.addCard} addValErr={this.addValErr} />
-        </ValidationContext.Provider>
-
-        <FormCardList
-          formCards={formCards}
-          validationErrors={validationErrors}
-        />
-      </div>
-    );
-  }
+  return (
+    <div className="form-page">
+      <h2 className="form-page__title">
+        Please fullfil the following form to return your purchase
+      </h2>
+      <FormComponentHook updateFormCards={updateFormCards} />
+      <CardList formCards={formCards} />
+    </div>
+  );
 }
+
 export default FormPage;
