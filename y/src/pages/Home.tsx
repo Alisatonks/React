@@ -1,12 +1,10 @@
 import React from 'react';
 import CardList from '../components/cards/CardList';
-import Header from '../components/Header';
 import SearchBar from '../components/SearchBar';
 
 function Home() {
   return (
     <div>
-      <Header content="Main Page" />
       <main className="home">
         <SearchBar key="searchBarKey" />
         <CardList />

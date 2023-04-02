@@ -1,11 +1,6 @@
 import React from 'react';
-import Header from '../components/Header';
 
 function AboutUs() {
-  return (
-    <div>
-      <Header content="About Us" />
-    </div>
-  );
+  return <div>This is About us Page</div>;
 }
 export default AboutUs;

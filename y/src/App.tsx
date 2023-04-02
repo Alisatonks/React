@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Error from './pages/Error';
 import AboutUs from './pages/AboutUs';
 import FormPage from './pages/FormPage';
+import Header from './components/Header';
 
 export function App() {
   return (
@@ -19,6 +20,7 @@ export function App() {
 export function WrappedApp() {
   return (
     <HashRouter>
+      <Header />
       <App />
     </HashRouter>
   );

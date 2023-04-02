@@ -59,6 +59,7 @@ function FormComponentHook(props: IPropsFormComponentHook) {
         Enter purchase date
         <input
           type="date"
+          id="date"
           {...register('date', {
             required: true,
             validate: (value) => validateDate(value),
@@ -71,6 +72,7 @@ function FormComponentHook(props: IPropsFormComponentHook) {
       <label htmlFor="returnReason">
         Choose return reason
         <select
+          id="returnReason"
           {...register('reason', {
             required: true,
             validate: (value) => validateReason(value),
@@ -89,6 +91,7 @@ function FormComponentHook(props: IPropsFormComponentHook) {
         <input
           type="checkbox"
           className="form__checkbox"
+          id="concent"
           {...register('concent', {
             required: true,
             validate: (value) => validateConcent(value),
@@ -133,6 +136,7 @@ function FormComponentHook(props: IPropsFormComponentHook) {
           type="file"
           className="input-file"
           accept="image/jpeg,image/png,image/gif"
+          id="loadFile"
           {...register('inputFile', { required: true })}
         />
         {errors.inputFile && (

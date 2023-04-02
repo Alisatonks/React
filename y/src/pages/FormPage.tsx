@@ -1,5 +1,4 @@
 import React, { useCallback, useState } from 'react';
-import Header from '../components/Header';
 import FormComponentHook from '../components/form/FormComponentHook';
 import CardList from '../components/form/FormCardList';
 import { IObjectValues } from '../types/types';
@@ -16,7 +15,6 @@ function FormPage() {
 
   return (
     <div className="form-page">
-      <Header content="Form Page" />
       <h2 className="form-page__title">
         Please fullfil the following form to return your purchase
       </h2>
