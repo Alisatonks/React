@@ -17,7 +17,7 @@ export type ICardProps2 = Pick<
 >;
 
 export type ImgProps = {
-  source: string | boolean;
+  image: string | boolean;
   alt: string;
   myClass: string;
 };
@@ -58,3 +58,35 @@ export type IObjectValues = {
   radio: string;
   inputFile: string;
 };
+
+export type ICharacter = {
+  created: string;
+  episode: string[];
+  gender: string;
+  id: number;
+  image: string;
+  location: {
+    name: string;
+    url: string;
+  };
+  name: string;
+  origin: {
+    name: string;
+    url: string;
+  };
+  species: string;
+  status: string;
+  type: string;
+  url: string;
+};
+
+export type IReceivedData = {
+  data: ICharacter[];
+};
+
+export type IGeneralCard = Pick<ICharacter, 'name' | 'status' | 'image'>;
+
+export interface ISearchBarProps {
+  setCardsData: React.Dispatch<React.SetStateAction<ICharacter[]>>;
+  setIsLoading: React.Dispatch<React.SetStateAction<boolean>>;
+}

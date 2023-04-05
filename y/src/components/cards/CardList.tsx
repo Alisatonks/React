@@ -1,22 +1,18 @@
 import React from 'react';
-import CARDSDATA from '../../utils/cardsData';
+import { IReceivedData } from 'types/types';
 import Card from './Card';
 
-function CardList() {
+function CardList(props: IReceivedData) {
+  const { data } = props;
   return (
     <div className="card__wrapper">
-      {CARDSDATA.products.map((el) => {
+      {data.map((el) => {
         return (
           <Card
             key={el.id}
-            source={el.thumbnail}
-            price={el.price}
-            name={el.title}
-            brand={el.brand}
-            category={el.category}
-            discount={el.discount}
-            rating={el.rating}
-            stock={el.stock}
+            image={el.image}
+            name={el.name}
+            status={el.status}
           />
         );
       })}
