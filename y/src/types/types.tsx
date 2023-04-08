@@ -98,8 +98,8 @@ export interface ISearchBarProps {
 }
 
 export interface IModalProps {
-  isModalOpen: boolean;
   setIsModalOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  id: number;
 }
 
 export type IModalCard = {
@@ -113,3 +113,8 @@ export type IModalCard = {
   };
   image: string;
 };
+
+export interface ModalCardProps {
+  id: number;
+  setIsModalOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}

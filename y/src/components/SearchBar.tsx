@@ -3,7 +3,7 @@ import { ISearchBarProps } from 'types/types';
 import { getCharacters } from './apiFunctions';
 
 const SearchBar: React.FC<ISearchBarProps> = function SearchBar(props) {
-  const { setCardsData, setIsLoading, cardsData } = props;
+  const { setCardsData, setIsLoading } = props;
   const inputRef = useRef(localStorage.getItem('inputValue') || '');
 
   useEffect(() => {
@@ -29,7 +29,6 @@ const SearchBar: React.FC<ISearchBarProps> = function SearchBar(props) {
     } else {
       getCharacters(setCardsData, setIsLoading, 'all');
     }
-    console.log(cardsData);
   };
 
   return (

@@ -17,6 +17,7 @@
         color: #000;
         cursor: auto;
         max-width: 60%;
+        z-index: 100;
     }
     &__img-wrapper {
         width: 100%;
@@ -24,15 +25,36 @@
         margin: 0 auto 10px 0;
         border-radius: 5px;
     }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .cross {
     width: 30px;
     height: 30px;
-    background-image: url(../assets/svg/x_icon-orange.svg);
     cursor: pointer;
     position: absolute;
     right: 0;
     top: 0;
     padding: 20px;
+}
+
+.loading {
+    background-color: white;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

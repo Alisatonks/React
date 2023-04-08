@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import CardImg from './CardImg';
 import { IGeneralCard } from '../../types/types';
-import { getSingleCharacter } from '../apiFunctions';
 import Modal from '../modal/Modal';
 
 function Card(props: IGeneralCard) {
@@ -9,9 +8,7 @@ function Card(props: IGeneralCard) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleClick = async () => {
-    const data = await getSingleCharacter(id);
     setIsModalOpen(true);
-    console.log(data);
   };
 
   const handleKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
@@ -26,6 +23,7 @@ function Card(props: IGeneralCard) {
       onKeyDown={handleKeyDown}
       role="button"
       tabIndex={0}
+      id={String(id)}
     >
       <div className="card__name">
         <div className="card__brand">{name}</div>
@@ -34,9 +32,7 @@ function Card(props: IGeneralCard) {
       <div className="card__info">
         <div className="card__info-details">{`status: ${status}`}</div>
       </div>
-      {isModalOpen && (
-        <Modal isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
-      )}
+      {isModalOpen && <Modal setIsModalOpen={setIsModalOpen} id={id} />}
     </div>
   );
 }
