@@ -1,18 +1,33 @@
 import { ICharacter } from 'types/types';
 
-async function getAllCharacters(
+export async function getCharacters(
   setCardsData: React.Dispatch<React.SetStateAction<ICharacter[]>>,
-  setIsLoading: React.Dispatch<React.SetStateAction<boolean>>
+  setIsLoading: React.Dispatch<React.SetStateAction<boolean>>,
+  type: 'all' | 'search' | string = 'all',
+  search?: string
 ) {
+  let url = 'https://rickandmortyapi.com/api/character';
+
+  if (type === 'search') {
+    url += `/?name=${search}`;
+  }
+
   try {
-    const response = await fetch('https://rickandmortyapi.com/api/character');
+    const response = await fetch(url);
     const data = await response.json();
     setIsLoading(false);
     setCardsData(data.results);
-    return;
   } catch (error) {
     throw new Error(`The following error has ocurred ${error}`);
   }
 }
-
-export default getAllCharacters;
+export async function getSingleCharacter(id: number) {
+  try {
+    const response = await fetch(
+      `https://rickandmortyapi.com/api/character/${id}`
+    );
+    return await response.json();
+  } catch (error) {
+    throw new Error(`The following error has ocurred ${error}`);
+  }
+}

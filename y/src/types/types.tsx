@@ -84,9 +84,32 @@ export type IReceivedData = {
   data: ICharacter[];
 };
 
-export type IGeneralCard = Pick<ICharacter, 'name' | 'status' | 'image'>;
+export type IGeneralCard = {
+  name: string;
+  status: string;
+  image: string;
+  id: number;
+};
 
 export interface ISearchBarProps {
   setCardsData: React.Dispatch<React.SetStateAction<ICharacter[]>>;
   setIsLoading: React.Dispatch<React.SetStateAction<boolean>>;
+  cardsData: ICharacter[] | ICharacter;
 }
+
+export interface IModalProps {
+  isModalOpen: boolean;
+  setIsModalOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+export type IModalCard = {
+  name: string;
+  status: string;
+  gender: string;
+  species: string;
+  location: {
+    name: string;
+    url: string;
+  };
+  image: string;
+};

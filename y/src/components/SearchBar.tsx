@@ -1,15 +1,21 @@
 import React, { ChangeEvent, useEffect, useRef } from 'react';
 import { ISearchBarProps } from 'types/types';
-import getAllCharacters from './apiFunctions';
+import { getCharacters } from './apiFunctions';
 
 const SearchBar: React.FC<ISearchBarProps> = function SearchBar(props) {
-  const { setCardsData, setIsLoading } = props;
+  const { setCardsData, setIsLoading, cardsData } = props;
   const inputRef = useRef(localStorage.getItem('inputValue') || '');
 
   useEffect(() => {
-    // console.log(inputRef.current ? '1' : '0');
-    getAllCharacters(setCardsData, setIsLoading);
-  }, []);
+    return () => {
+      const search = localStorage.getItem('inputValue');
+      if (search) {
+        getCharacters(setCardsData, setIsLoading, 'search', search);
+      } else {
+        getCharacters(setCardsData, setIsLoading, 'all');
+      }
+    };
+  }, [setCardsData, setIsLoading]);
 
   const onChangeValue = (e: ChangeEvent<HTMLInputElement>) => {
     inputRef.current = e.target.value;
@@ -17,7 +23,13 @@ const SearchBar: React.FC<ISearchBarProps> = function SearchBar(props) {
 
   const onSearch = () => {
     localStorage.setItem('inputValue', inputRef.current);
-    console.log(inputRef.current);
+    const search = localStorage.getItem('inputValue');
+    if (search && search.length) {
+      getCharacters(setCardsData, setIsLoading, 'search', search);
+    } else {
+      getCharacters(setCardsData, setIsLoading, 'all');
+    }
+    console.log(cardsData);
   };
 
   return (

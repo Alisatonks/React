@@ -1,0 +1,38 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__card {
+        padding: 60px;
+        position: relative;
+        border-radius: 7px;
+        background-color: white;
+        color: #000;
+        cursor: auto;
+        max-width: 60%;
+    }
+    &__img-wrapper {
+        width: 100%;
+        height: 300px;
+        margin: 0 auto 10px 0;
+        border-radius: 5px;
+    }
+}
+
+.cross {
+    width: 30px;
+    height: 30px;
+    background-image: url(../assets/svg/x_icon-orange.svg);
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+}

@@ -4,6 +4,7 @@ import Card from './Card';
 
 function CardList(props: IReceivedData) {
   const { data } = props;
+
   return (
     <div className="card__wrapper">
       {data.map((el) => {
@@ -13,6 +14,7 @@ function CardList(props: IReceivedData) {
             image={el.image}
             name={el.name}
             status={el.status}
+            id={el.id}
           />
         );
       })}
