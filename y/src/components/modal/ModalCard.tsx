@@ -12,7 +12,6 @@ const ModalCard: React.FC<ModalCardProps> = function ModalCard({
     const fetchData = async () => {
       const result = await getSingleCharacter(id);
       setData(result);
-      console.log(result);
     };
     fetchData();
   }, [id]);
@@ -49,11 +48,13 @@ const ModalCard: React.FC<ModalCardProps> = function ModalCard({
         <div className="card__info-details">Status: {data.status}</div>
         <div className="card__info-details">Gender: {data.gender}</div>
         <div className="card__info-details">Species: {data.species}</div>
-        <div className="card__info-details">Location: {data.location.name}</div>
+        <div className="card__info-details">
+          Location: {data.location?.name}
+        </div>
         <div className="card__info-details">Created: {data.created}</div>
         <div className="card__info-details">
           Episodes:
-          {data.episode.map((e) => e.split('/').pop()).join(', ')}
+          {data.episode?.map((e) => e.split('/').pop()).join(', ')}
         </div>
       </div>
     </div>
