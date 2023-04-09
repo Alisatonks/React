@@ -12,6 +12,7 @@ const ModalCard: React.FC<ModalCardProps> = function ModalCard({
     const fetchData = async () => {
       const result = await getSingleCharacter(id);
       setData(result);
+      console.log(result);
     };
     fetchData();
   }, [id]);

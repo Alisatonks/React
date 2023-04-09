@@ -7,14 +7,12 @@ const SearchBar: React.FC<ISearchBarProps> = function SearchBar(props) {
   const inputRef = useRef(localStorage.getItem('inputValue') || '');
 
   useEffect(() => {
-    return () => {
-      const search = localStorage.getItem('inputValue');
-      if (search) {
-        getCharacters(setCardsData, setIsLoading, 'search', search);
-      } else {
-        getCharacters(setCardsData, setIsLoading, 'all');
-      }
-    };
+    const search = localStorage.getItem('inputValue');
+    if (search) {
+      getCharacters(setCardsData, setIsLoading, 'search', search);
+    } else {
+      getCharacters(setCardsData, setIsLoading, 'all');
+    }
   }, [setCardsData, setIsLoading]);
 
   const onChangeValue = (e: ChangeEvent<HTMLInputElement>) => {
