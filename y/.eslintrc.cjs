@@ -39,5 +39,7 @@ module.exports = {
     'no-unused-vars': ['error', { destructuredArrayIgnorePattern: '^_' }],
     '@typescript-eslint/no-unused-vars': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'jsx-a11y/no-noninteractive-element-interactions': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
   },
 };

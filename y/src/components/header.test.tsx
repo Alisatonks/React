@@ -1,6 +1,7 @@
 import { describe, it } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { WrappedApp } from '../App';
+import 'whatwg-fetch';
 
 describe('Header component', () => {
   it('Checks that there is h1 and list', () => {

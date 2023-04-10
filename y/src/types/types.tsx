@@ -17,7 +17,7 @@ export type ICardProps2 = Pick<
 >;
 
 export type ImgProps = {
-  source: string | boolean;
+  image: string | boolean;
   alt: string;
   myClass: string;
 };
@@ -58,3 +58,63 @@ export type IObjectValues = {
   radio: string;
   inputFile: string;
 };
+
+export type ICharacter = {
+  created: string;
+  episode: string[];
+  gender: string;
+  id: number;
+  image: string;
+  location: {
+    name: string;
+    url: string;
+  };
+  name: string;
+  origin: {
+    name: string;
+    url: string;
+  };
+  species: string;
+  status: string;
+  type: string;
+  url: string;
+};
+
+export type IReceivedData = {
+  data: ICharacter[];
+};
+
+export type IGeneralCard = {
+  name: string;
+  status: string;
+  image: string;
+  id: number;
+};
+
+export interface ISearchBarProps {
+  setCardsData: React.Dispatch<React.SetStateAction<ICharacter[]>>;
+  setIsLoading: React.Dispatch<React.SetStateAction<boolean>>;
+  cardsData: ICharacter[] | ICharacter;
+}
+
+export interface IModalProps {
+  setIsModalOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  id: number;
+}
+
+export type IModalCard = {
+  name: string;
+  status: string;
+  gender: string;
+  species: string;
+  location: {
+    name: string;
+    url: string;
+  };
+  image: string;
+};
+
+export interface ModalCardProps {
+  id: number;
+  setIsModalOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}

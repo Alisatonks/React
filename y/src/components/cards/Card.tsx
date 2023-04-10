@@ -1,25 +1,38 @@
-import React from 'react';
-import CardName from './CardName';
-import CardInfo from './CardInfo';
-import CardBtns from './CardBtns';
+import React, { useState } from 'react';
 import CardImg from './CardImg';
-import { ICardProps } from '../../types/types';
+import { IGeneralCard } from '../../types/types';
+import Modal from '../modal/Modal';
 
-function Card(props: ICardProps) {
-  const { source, price, name, brand, category, discount, rating, stock } =
-    props;
+function Card(props: IGeneralCard) {
+  const { image, name, status, id } = props;
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleClick = async () => {
+    setIsModalOpen(true);
+  };
+
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      handleClick();
+    }
+  };
   return (
-    <div className="card">
-      <CardName name={name} brand={brand} />
-      <CardImg source={source} alt="product" myClass="card__img" />
-      <CardInfo
-        category={category}
-        discount={discount}
-        rating={rating}
-        stock={stock}
-      />
-      <div className="card__price">{`€${price}`}</div>
-      <CardBtns />
+    <div
+      className="card"
+      onClick={handleClick}
+      onKeyDown={handleKeyDown}
+      role="button"
+      tabIndex={0}
+      id={String(id)}
+    >
+      <div className="card__name">
+        <div className="card__brand">{name}</div>
+      </div>
+      <CardImg image={image} alt="character image" myClass="card__img" />
+      <div className="card__info">
+        <div className="card__info-details">{`status: ${status}`}</div>
+      </div>
+      {isModalOpen && <Modal setIsModalOpen={setIsModalOpen} id={id} />}
     </div>
   );
 }
