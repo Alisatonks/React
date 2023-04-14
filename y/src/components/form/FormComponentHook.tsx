@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import { useDispatch } from 'react-redux';
+import { setFormCard } from '../../redux/formReducer';
 import {
   validateConcent,
   validateDate,
   validateReason,
   validateTitle,
 } from './validationFunctions';
-import { IFormValues, IPropsFormComponentHook } from '../../types/types';
+import { IFormValues } from '../../types/types';
 
-function FormComponentHook(props: IPropsFormComponentHook) {
-  const { updateFormCards } = props;
+function FormComponentHook() {
+  const dispatch = useDispatch();
   const [cardCreated, setCardCreated] = useState(false);
   const {
     register,
@@ -31,7 +33,7 @@ function FormComponentHook(props: IPropsFormComponentHook) {
   }
 
   function onSubmit(data: IFormValues) {
-    updateFormCards(createValidationObject(data));
+    dispatch(setFormCard(createValidationObject(data)));
     setCardCreated(true);
     setTimeout(() => {
       setCardCreated(false);

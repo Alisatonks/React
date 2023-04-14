@@ -41,9 +41,9 @@ export type IFormValues = {
   inputFile: File[];
 };
 
-export type IPropsFormComponentHook = {
-  updateFormCards: (object: IObjectValues) => void;
-};
+// export type IPropsFormComponentHook = {
+//   updateFormCards: (object: IObjectValues) => void;
+// };
 
 export type IObjectsCardList = {
   formCards: IObjectValues[];
@@ -117,4 +117,22 @@ export type IModalCard = {
 export interface ModalCardProps {
   id: number;
   setIsModalOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+export type IFormCardAction = {
+  type: string;
+  payload: IObjectValues;
+};
+
+export type ISearchAction = {
+  search: string;
+};
+
+export type IFormCardState = {
+  formCards: IObjectValues[];
+};
+
+export interface RootState {
+  formCards: IFormCardState;
+  search: string;
 }
