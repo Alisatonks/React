@@ -1,6 +1,8 @@
+import { Provider } from 'react-redux';
 import { describe, vi, it } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
 import createFetchMock from 'vitest-fetch-mock';
+import store from '../redux/store';
 import Home from '../pages/Home';
 import ModalCard from './modal/ModalCard';
 
@@ -40,23 +42,39 @@ describe('API requests', () => {
 
   it('fetch and display the characters name on a Card', async () => {
     fetchMock.mockResponse(JSON.stringify({ results: response }));
-    render(<Home />);
+    render(
+      <Provider store={store}>
+        <Home />
+      </Provider>
+    );
     await screen.findByText('Alan Rails');
   });
   it('fetch and display the characters status on a Card', async () => {
     fetchMock.mockResponse(JSON.stringify({ results: response }));
-    render(<Home />);
+    render(
+      <Provider store={store}>
+        <Home />
+      </Provider>
+    );
     await screen.findByText('status: Dead');
   });
   it('Modal window is created and there is a cross button on it', async () => {
     fetchMock.mockResponse(JSON.stringify({ results: response }));
-    render(<ModalCard id={10} setIsModalOpen={mockSetIsModalOpen} />);
+    render(
+      <Provider store={store}>
+        <ModalCard id={10} setIsModalOpen={mockSetIsModalOpen} />
+      </Provider>
+    );
     await screen.findByLabelText('Close Modal');
   });
   it('fetch for a single character and display gender on the screen', async () => {
     fetchMock.mockResponse(JSON.stringify({ results: response }));
     waitFor(() =>
-      render(<ModalCard id={10} setIsModalOpen={mockSetIsModalOpen} />)
+      render(
+        <Provider store={store}>
+          <ModalCard id={10} setIsModalOpen={mockSetIsModalOpen} />
+        </Provider>
+      )
     );
     waitFor(async () => screen.findByText('species: Human'));
   });

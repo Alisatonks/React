@@ -1,4 +1,6 @@
 import { render, screen } from '@testing-library/react';
+import { Provider } from 'react-redux';
+import store from '../../redux/store';
 import FormCard from './FormCard';
 
 describe('testing component FormCard', () => {
@@ -13,7 +15,11 @@ describe('testing component FormCard', () => {
   };
 
   it('should render card with correct data', () => {
-    render(<FormCard {...formCardData} />);
+    render(
+      <Provider store={store}>
+        <FormCard {...formCardData} />
+      </Provider>
+    );
 
     expect(screen.getByAltText('your img')).toBeInTheDocument();
     expect(
