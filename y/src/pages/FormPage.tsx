@@ -1,24 +1,20 @@
-import React, { useCallback, useState } from 'react';
+import React from 'react';
+import { useSelector } from 'react-redux';
 import FormComponentHook from '../components/form/FormComponentHook';
 import CardList from '../components/form/FormCardList';
-import { IObjectValues } from '../types/types';
+import { RootState } from '../types/types';
 
 function FormPage() {
-  const [formCards, setFormCards] = useState<IObjectValues[]>([]);
-
-  const updateFormCards = useCallback(
-    (object: IObjectValues) => {
-      setFormCards([...formCards, object]);
-    },
-    [formCards]
-  );
+  const { formCards } = useSelector((state: RootState) => {
+    return state.formCards;
+  });
 
   return (
     <div className="form-page">
       <h2 className="form-page__title">
         Please fullfil the following form to return your purchase
       </h2>
-      <FormComponentHook updateFormCards={updateFormCards} />
+      <FormComponentHook />
       <CardList formCards={formCards} />
     </div>
   );

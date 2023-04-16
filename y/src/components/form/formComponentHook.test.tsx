@@ -1,10 +1,16 @@
 import React from 'react';
+import { Provider } from 'react-redux';
 import { render, screen, fireEvent } from '@testing-library/react';
+import store from '../../redux/store';
 import FormPage from '../../pages/FormPage';
 
 describe('FormComponentHook', () => {
   it('should render all form fields', () => {
-    render(<FormPage />);
+    render(
+      <Provider store={store}>
+        <FormPage />
+      </Provider>
+    );
     expect(
       screen.getByPlaceholderText('Enter product name')
     ).toBeInTheDocument();
@@ -24,7 +30,11 @@ describe('FormComponentHook', () => {
   });
 
   it('should show validation errors when form fields are not filled correctly', async () => {
-    render(<FormPage />);
+    render(
+      <Provider store={store}>
+        <FormPage />
+      </Provider>
+    );
     fireEvent.submit(screen.getByRole('button', { name: 'Submit' }));
     expect(
       await screen.findByText('Please enter the past date')

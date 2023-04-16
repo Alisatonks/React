@@ -1,4 +1,6 @@
 import { render, screen } from '@testing-library/react';
+import { Provider } from 'react-redux';
+import store from '../../redux/store';
 import FormCardList from './FormCardList';
 
 describe('FormCardList', () => {
@@ -24,10 +26,14 @@ describe('FormCardList', () => {
   ];
 
   it('should render a list of FormCards', () => {
-    render(<FormCardList formCards={formCards} />);
+    render(
+      <Provider store={store}>
+        <FormCardList formCards={formCards} />
+      </Provider>
+    );
 
-    expect(screen.getByText(/test Product 1/gi)).toBeInTheDocument();
-    expect(screen.getByText(/test Product 2/gi)).toBeInTheDocument();
+    expect(screen.getByText(/test Product 1/i)).toBeInTheDocument();
+    expect(screen.getByText(/test Product 2/i)).toBeInTheDocument();
     expect(screen.getAllByRole('img')).toHaveLength(2);
   });
 });

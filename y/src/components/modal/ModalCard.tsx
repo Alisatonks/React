@@ -1,21 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { ICharacter, ModalCardProps } from 'types/types';
-import { getSingleCharacter } from '../apiFunctions';
+import React from 'react';
+import { ModalCardProps } from 'types/types';
 import cross from '../../assets/svg/x_icon-orange.svg';
+import { useGetSingleCharacterQuery } from '../../redux/apiSlice';
 
 const ModalCard: React.FC<ModalCardProps> = function ModalCard({
   id,
   setIsModalOpen,
 }) {
-  const [data, setData] = useState<ICharacter>();
-  useEffect(() => {
-    const fetchData = async () => {
-      const result = await getSingleCharacter(id);
-      setData(result);
-    };
-    fetchData();
-  }, [id]);
-
+  const { data, isLoading, error } = useGetSingleCharacterQuery(id);
   const onCross = (event: React.MouseEvent<HTMLImageElement>) => {
     setIsModalOpen(false);
     event.stopPropagation();
@@ -26,7 +18,9 @@ const ModalCard: React.FC<ModalCardProps> = function ModalCard({
     e.stopPropagation();
   }
 
-  return data ? (
+  if (isLoading) return <div className="loading">Loading...</div>;
+  if (!data || error) return <div>Something went wrong</div>;
+  return (
     <div className="modal__wrapper">
       <div
         className="overlay"
@@ -54,12 +48,10 @@ const ModalCard: React.FC<ModalCardProps> = function ModalCard({
         <div className="card__info-details">Created: {data.created}</div>
         <div className="card__info-details">
           Episodes:
-          {data.episode?.map((e) => e.split('/').pop()).join(', ')}
+          {data.episode?.map((el: string) => el.split('/').pop()).join(', ')}
         </div>
       </div>
     </div>
-  ) : (
-    <div className="loading">Loading...</div>
   );
 };
 

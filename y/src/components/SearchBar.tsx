@@ -1,32 +1,21 @@
-import React, { ChangeEvent, useEffect, useRef } from 'react';
-import { ISearchBarProps } from 'types/types';
-import { getCharacters } from './apiFunctions';
+import React, { ChangeEvent, useRef } from 'react';
+import { RootState } from 'types/types';
+import { useDispatch, useSelector } from 'react-redux';
+import { setInputValue } from '../redux/searchReducer';
 
-const SearchBar: React.FC<ISearchBarProps> = function SearchBar(props) {
-  const { setCardsData, setIsLoading } = props;
-  const inputRef = useRef(localStorage.getItem('inputValue') || '');
-
-  useEffect(() => {
-    const search = localStorage.getItem('inputValue');
-    if (search) {
-      getCharacters(setCardsData, setIsLoading, 'search', search);
-    } else {
-      getCharacters(setCardsData, setIsLoading, 'all');
-    }
-  }, [setCardsData, setIsLoading]);
+const SearchBar = function SearchBar() {
+  const dispatch = useDispatch();
+  const { search } = useSelector((state: RootState) => {
+    return state;
+  });
+  const inputRef = useRef('');
 
   const onChangeValue = (e: ChangeEvent<HTMLInputElement>) => {
     inputRef.current = e.target.value;
   };
 
   const onSearch = () => {
-    localStorage.setItem('inputValue', inputRef.current);
-    const search = localStorage.getItem('inputValue');
-    if (search && search.length) {
-      getCharacters(setCardsData, setIsLoading, 'search', search);
-    } else {
-      getCharacters(setCardsData, setIsLoading, 'all');
-    }
+    dispatch(setInputValue(inputRef.current));
   };
 
   function handleKeyDown(event: React.KeyboardEvent<HTMLInputElement>) {
@@ -36,20 +25,20 @@ const SearchBar: React.FC<ISearchBarProps> = function SearchBar(props) {
   }
 
   return (
-    <form className="search__form">
+    <div className="search__form">
       <input
         type="text"
         name="search"
         placeholder="Enter your text"
         className="search__input"
-        defaultValue={inputRef.current}
+        defaultValue={search || ''}
         onChange={onChangeValue}
         onKeyDown={handleKeyDown}
       />
       <button type="button" className="search__btn" onClick={onSearch}>
         Search
       </button>
-    </form>
+    </div>
   );
 };
 
