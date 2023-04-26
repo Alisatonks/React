@@ -8,7 +8,7 @@ import AboutUs from './pages/AboutUs';
 import FormPage from './pages/FormPage';
 import Header from './components/Header';
 
-export function App() {
+function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
@@ -19,7 +19,7 @@ export function App() {
   );
 }
 
-export function WrappedApp() {
+function WrappedApp() {
   return (
     <Provider store={store}>
       <HashRouter>
@@ -29,3 +29,5 @@ export function WrappedApp() {
     </Provider>
   );
 }
+
+export default WrappedApp;
