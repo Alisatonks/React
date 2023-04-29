@@ -22,7 +22,7 @@
   "include": [
     "vite.config.ts",
     ".eslintrc.cjs",
-    "src", "user-event.d.tsx"],
+    "src", "user-event.d.tsx", "server.ts", "request.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }],
   "ts-node": {
     "esm": true,
