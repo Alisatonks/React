@@ -18,11 +18,15 @@
     "noImplicitAny": true,
     "noFallthroughCasesInSwitch": true,
     "baseUrl": "./src",
+    "types": [
+      "cypress",
+      "cypress-file-upload"
+    ]
   },
   "include": [
     "vite.config.ts",
     ".eslintrc.cjs",
-    "src", "user-event.d.tsx", "server.ts", "request.tsx"],
+    "src", "user-event.d.tsx", "server.ts", "request.tsx", "cypress/**/*", "spec.cy.ts", "cypress/**/*", "cypress.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }],
   "ts-node": {
     "esm": true,
