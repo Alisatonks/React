@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
 import 'cypress-file-upload';
+import '@cypress/code-coverage/support';
 
 describe('Home e2e', () => {
   it('should have input', () => {
