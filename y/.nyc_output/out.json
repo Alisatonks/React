@@ -1,0 +1,4757 @@
+{
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/CardImg.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/CardImg.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 34
+        },
+        "end": {
+          "line": 3,
+          "column": 39
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 23,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "CardImg",
+        "decl": {
+          "start": {
+            "line": 2,
+            "column": 9
+          },
+          "end": {
+            "line": 2,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 24
+          },
+          "end": {
+            "line": 24,
+            "column": 1
+          }
+        },
+        "line": 2
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 11
+          },
+          "end": {
+            "line": 7,
+            "column": 49
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 39
+            },
+            "end": {
+              "line": 7,
+              "column": 44
+            }
+          },
+          {
+            "start": {
+              "line": 7,
+              "column": 47
+            },
+            "end": {
+              "line": 7,
+              "column": 49
+            }
+          }
+        ],
+        "line": 7
+      }
+    },
+    "s": {
+      "0": 894,
+      "1": 894,
+      "2": 0,
+      "3": 27,
+      "4": 27,
+      "5": 27,
+      "6": 27,
+      "7": 27,
+      "8": 268,
+      "9": 268,
+      "10": 27,
+      "11": 27,
+      "12": 27,
+      "13": 27,
+      "14": 27,
+      "15": 27,
+      "16": 27,
+      "17": 27,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0
+    },
+    "f": {
+      "0": 894,
+      "1": 268,
+      "2": 27,
+      "3": 0
+    },
+    "b": {
+      "0": [
+        894,
+        0
+      ],
+      "1": [
+        0,
+        28
+      ],
+      "2": [
+        268,
+        0
+      ],
+      "3": [
+        28,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/CardImg.tsx"
+      ],
+      "mappings": "AAOM;AAJN,SAAS,QAAQ,OAAiB;AAChC,QAAM,EAAE,OAAO,KAAK,QAAQ,IAAI;AAChC,SACE,uBAAC,SAAI,WAAU,qBACb;AAAA,IAAC;AAAA;AAAA,MACC,KAAK,OAAO,UAAU,WAAW,QAAQ;AAAA,MACzC;AAAA,MACA,WAAW;AAAA;AAAA,IAHb;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,EAIA,KALF;AAAA;AAAA;AAAA;AAAA,SAMA;AAEJ;AACA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "1e847487305e838b6c35d35ca3f6833c62d24524"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/redux/apiSlice.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/redux/apiSlice.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 2,
+          "column": 24
+        },
+        "end": {
+          "line": 13,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 25
+        },
+        "end": {
+          "line": 12,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 21
+        },
+        "end": {
+          "line": 7,
+          "column": 38
+        }
+      },
+      "3": {
+        "start": {
+          "line": 10,
+          "column": 23
+        },
+        "end": {
+          "line": 10,
+          "column": 48
+        }
+      },
+      "4": {
+        "start": {
+          "line": 14,
+          "column": 68
+        },
+        "end": {
+          "line": 14,
+          "column": 76
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 13
+          },
+          "end": {
+            "line": 5,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 25
+          },
+          "end": {
+            "line": 12,
+            "column": 3
+          }
+        },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 13
+          },
+          "end": {
+            "line": 7,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 21
+          },
+          "end": {
+            "line": 7,
+            "column": 38
+          }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 13
+          },
+          "end": {
+            "line": 10,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 23
+          },
+          "end": {
+            "line": 10,
+            "column": 48
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 119,
+      "1": 119,
+      "2": 0,
+      "3": 102,
+      "4": 119
+    },
+    "f": {
+      "0": 119,
+      "1": 0,
+      "2": 102
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/redux/apiSlice.tsx"
+      ],
+      "mappings": "AAAA,SAAS,WAAW,sBAAsB;AAEnC,aAAM,WAAW,UAAU;AAAA,EAChC,aAAa;AAAA,EACb,WAAW,eAAe,EAAE,SAAS,mCAAmC,CAAC;AAAA,EACzE,WAAW,CAAC,WAAW;AAAA,IACrB,oBAAoB,MAAM,MAAM;AAAA,MAC9B,OAAO,CAAC,OAAO,aAAa;AAAA,IAC9B,CAAC;AAAA,IACD,cAAc,MAAM,MAAM;AAAA,MACxB,OAAO,CAAC,SAAS,mBAAmB;AAAA,IACtC,CAAC;AAAA,EACH;AACF,CAAC;AAEM,aAAM,EAAE,4BAA4B,qBAAqB,IAAI;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "6b59430416a0bc5fa3446b1f722777cd2589bc9c"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/modal/ModalCard.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/modal/ModalCard.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 18
+        },
+        "end": {
+          "line": 140,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 37
+        },
+        "end": {
+          "line": 8,
+          "column": 67
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 18
+        },
+        "end": {
+          "line": 12,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 10,
+          "column": 4
+        },
+        "end": {
+          "line": 10,
+          "column": 26
+        }
+      },
+      "4": {
+        "start": {
+          "line": 11,
+          "column": 4
+        },
+        "end": {
+          "line": 11,
+          "column": 28
+        }
+      },
+      "5": {
+        "start": {
+          "line": 14,
+          "column": 4
+        },
+        "end": {
+          "line": 14,
+          "column": 26
+        }
+      },
+      "6": {
+        "start": {
+          "line": 15,
+          "column": 4
+        },
+        "end": {
+          "line": 15,
+          "column": 24
+        }
+      },
+      "7": {
+        "start": {
+          "line": 17,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": 13
+        }
+      },
+      "8": {
+        "start": {
+          "line": 18,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 13
+        }
+      },
+      "9": {
+        "start": {
+          "line": 23,
+          "column": 2
+        },
+        "end": {
+          "line": 28,
+          "column": 13
+        }
+      },
+      "10": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 28,
+          "column": 13
+        }
+      },
+      "11": {
+        "start": {
+          "line": 29,
+          "column": 2
+        },
+        "end": {
+          "line": 139,
+          "column": 11
+        }
+      },
+      "12": {
+        "start": {
+          "line": 124,
+          "column": 34
+        },
+        "end": {
+          "line": 124,
+          "column": 53
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "ModalCard2",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 3
+          },
+          "end": {
+            "line": 140,
+            "column": 1
+          }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 18
+          },
+          "end": {
+            "line": 9,
+            "column": 19
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 29
+          },
+          "end": {
+            "line": 12,
+            "column": 3
+          }
+        },
+        "line": 9
+      },
+      "2": {
+        "name": "onModal",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 11
+          },
+          "end": {
+            "line": 13,
+            "column": 18
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 22
+          },
+          "end": {
+            "line": 16,
+            "column": 3
+          }
+        },
+        "line": 13
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 124,
+            "column": 26
+          },
+          "end": {
+            "line": 124,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 124,
+            "column": 34
+          },
+          "end": {
+            "line": 124,
+            "column": 53
+          }
+        },
+        "line": 124
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 2
+          },
+          "end": {
+            "line": 22,
+            "column": 13
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 17,
+              "column": 2
+            },
+            "end": {
+              "line": 22,
+              "column": 13
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 17
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 2
+          },
+          "end": {
+            "line": 28,
+            "column": 13
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 23,
+              "column": 2
+            },
+            "end": {
+              "line": 28,
+              "column": 13
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 23
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 6
+          },
+          "end": {
+            "line": 23,
+            "column": 20
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 23,
+              "column": 6
+            },
+            "end": {
+              "line": 23,
+              "column": 11
+            }
+          },
+          {
+            "start": {
+              "line": 23,
+              "column": 15
+            },
+            "end": {
+              "line": 23,
+              "column": 20
+            }
+          }
+        ],
+        "line": 23
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 57,
+            "column": 15
+          },
+          "end": {
+            "line": 57,
+            "column": 63
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 57,
+              "column": 48
+            },
+            "end": {
+              "line": 57,
+              "column": 58
+            }
+          },
+          {
+            "start": {
+              "line": 57,
+              "column": 61
+            },
+            "end": {
+              "line": 57,
+              "column": 63
+            }
+          }
+        ],
+        "line": 57
+      }
+    },
+    "s": {
+      "0": 119,
+      "1": 28,
+      "2": 0,
+      "3": 28,
+      "4": 28,
+      "5": 28,
+      "6": 28,
+      "7": 28,
+      "8": 28,
+      "9": 28,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 27,
+      "24": 0,
+      "25": 27,
+      "26": 27,
+      "27": 27,
+      "28": 27,
+      "29": 27,
+      "30": 27,
+      "31": 27,
+      "32": 27,
+      "33": 0,
+      "34": 0,
+      "35": 0,
+      "36": 0,
+      "37": 0
+    },
+    "f": {
+      "0": 28,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 27,
+      "7": 0
+    },
+    "b": {
+      "0": [
+        28,
+        0
+      ],
+      "1": [
+        0,
+        28
+      ],
+      "2": [
+        0,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ],
+      "6": [
+        28,
+        0
+      ],
+      "7": [
+        0,
+        0
+      ],
+      "8": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/modal/ModalCard.tsx"
+      ],
+      "mappings": "AAoBwB;AAlBxB,OAAO,WAAW;AAClB,SAAS,kCAAkC;AAE3C,MAAM,YAAsC,SAASA,WAAU;AAAA,EAC7D;AAAA,EACA;AACF,GAAG;AACD,QAAM,EAAE,MAAM,WAAW,MAAM,IAAI,2BAA2B,EAAE;AAChE,QAAM,UAAU,CAAC,UAA8C;AAC7D,mBAAe,KAAK;AACpB,UAAM,gBAAgB;AAAA,EACxB;AAEA,WAAS,QAAQ,GAAuC;AACtD,mBAAe,KAAK;AACpB,MAAE,gBAAgB;AAAA,EACpB;AAEA,MAAI;AAAW,WAAO,uBAAC,SAAI,WAAU,WAAU,0BAAzB;AAAA;AAAA;AAAA;AAAA,WAAmC;AACzD,MAAI,CAAC,QAAQ;AAAO,WAAO,uBAAC,SAAI,oCAAL;AAAA;AAAA;AAAA;AAAA,WAAyB;AACpD,SACE,uBAAC,SAAI,WAAU,kBACb;AAAA;AAAA,MAAC;AAAA;AAAA,QACC,WAAU;AAAA,QACV,SAAS;AAAA,QACT,MAAK;AAAA,QACL,UAAU;AAAA,QACV,cAAW;AAAA;AAAA,MALb;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAMA;AAAA,IACA,uBAAC,SAAI,WAAU,eACb;AAAA,6BAAC,SAAI,KAAK,OAAO,KAAI,cAAa,WAAU,SAAQ,SAAS,WAA7D;AAAA;AAAA;AAAA;AAAA,aAAsE;AAAA,MACtE,uBAAC,SAAI,WAAU,sBACb;AAAA,QAAC;AAAA;AAAA,UACC,KAAK,OAAO,KAAK,UAAU,WAAW,KAAK,QAAQ;AAAA,UACnD,KAAI;AAAA,UACJ,WAAU;AAAA;AAAA,QAHZ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAIA,KALF;AAAA;AAAA;AAAA;AAAA,aAMA;AAAA,MACA,uBAAC,SAAI,WAAU,oBAAmB;AAAA;AAAA,QAAE,KAAK;AAAA,WAAzC;AAAA;AAAA;AAAA;AAAA,aAA8C;AAAA,MAC9C,uBAAC,SAAI,WAAU,sBAAqB;AAAA;AAAA,QAAS,KAAK;AAAA,WAAlD;AAAA;AAAA;AAAA;AAAA,aAAyD;AAAA,MACzD,uBAAC,SAAI,WAAU,sBAAqB;AAAA;AAAA,QAAS,KAAK;AAAA,WAAlD;AAAA;AAAA;AAAA;AAAA,aAAyD;AAAA,MACzD,uBAAC,SAAI,WAAU,sBAAqB;AAAA;AAAA,QAAU,KAAK;AAAA,WAAnD;AAAA;AAAA;AAAA;AAAA,aAA2D;AAAA,MAC3D,uBAAC,SAAI,WAAU,sBAAqB;AAAA;AAAA,QACvB,KAAK,UAAU;AAAA,WAD5B;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,MACA,uBAAC,SAAI,WAAU,sBAAqB;AAAA;AAAA,QAAU,KAAK;AAAA,WAAnD;AAAA;AAAA;AAAA;AAAA,aAA2D;AAAA,MAC3D,uBAAC,SAAI,WAAU,sBAAqB;AAAA;AAAA,QAEjC,KAAK,SAAS,IAAI,CAAC,OAAe,GAAG,MAAM,GAAG,EAAE,IAAI,CAAC,EAAE,KAAK,IAAI;AAAA,WAFnE;AAAA;AAAA;AAAA;AAAA,aAGA;AAAA,SApBF;AAAA;AAAA;AAAA;AAAA,WAqBA;AAAA,OA7BF;AAAA;AAAA;AAAA;AAAA,SA8BA;AAEJ;AAEA,eAAe;",
+      "names": [
+        "ModalCard"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "500940308769903eebf56398aacebaa11597f6b4"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/modal/Modal.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/modal/Modal.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 14
+        },
+        "end": {
+          "line": 14,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 33
+        },
+        "end": {
+          "line": 4,
+          "column": 38
+        }
+      },
+      "2": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 13,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Modal2",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 23
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 37
+          },
+          "end": {
+            "line": 14,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 119,
+      "1": 28,
+      "2": 0,
+      "3": 27,
+      "4": 27,
+      "5": 27,
+      "6": 27,
+      "7": 27,
+      "8": 27,
+      "9": 0,
+      "10": 0,
+      "11": 27,
+      "12": 27,
+      "13": 27,
+      "14": 27,
+      "15": 27,
+      "16": 27,
+      "17": 27,
+      "18": 27,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0
+    },
+    "f": {
+      "0": 28,
+      "1": 0,
+      "2": 27,
+      "3": 0
+    },
+    "b": {
+      "0": [
+        28,
+        0
+      ],
+      "1": [
+        0,
+        28
+      ],
+      "2": [
+        28,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/modal/Modal.tsx"
+      ],
+      "mappings": "AAOM;AANN,OAAO,eAAe;AAEtB,MAAM,QAA+B,SAASA,OAAM,OAAO;AACzD,QAAM,EAAE,gBAAgB,GAAG,IAAI;AAC/B,SACE,uBAAC,SAAI,WAAU,SACb,iCAAC,aAAU,IAAQ,kBAAnB;AAAA;AAAA;AAAA;AAAA,SAAmD,KADrD;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;AAEA,eAAe;",
+      "names": [
+        "Modal"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "6f7bbb509cd1b4b5bbd3e085e7d57b9be0e526b4"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/Card.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/Card.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 38
+        },
+        "end": {
+          "line": 6,
+          "column": 43
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 40
+        },
+        "end": {
+          "line": 7,
+          "column": 55
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 22
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 25
+        }
+      },
+      "4": {
+        "start": {
+          "line": 11,
+          "column": 24
+        },
+        "end": {
+          "line": 15,
+          "column": 3
+        }
+      },
+      "5": {
+        "start": {
+          "line": 12,
+          "column": 4
+        },
+        "end": {
+          "line": 14,
+          "column": 5
+        }
+      },
+      "6": {
+        "start": {
+          "line": 13,
+          "column": 6
+        },
+        "end": {
+          "line": 13,
+          "column": 20
+        }
+      },
+      "7": {
+        "start": {
+          "line": 16,
+          "column": 2
+        },
+        "end": {
+          "line": 64,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Card",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 9
+          },
+          "end": {
+            "line": 5,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 21
+          },
+          "end": {
+            "line": 65,
+            "column": 1
+          }
+        },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 22
+          },
+          "end": {
+            "line": 8,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 34
+          },
+          "end": {
+            "line": 10,
+            "column": 3
+          }
+        },
+        "line": 8
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 24
+          },
+          "end": {
+            "line": 11,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 35
+          },
+          "end": {
+            "line": 15,
+            "column": 3
+          }
+        },
+        "line": 11
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 4
+          },
+          "end": {
+            "line": 14,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 12,
+              "column": 4
+            },
+            "end": {
+              "line": 14,
+              "column": 5
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 12
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 8
+          },
+          "end": {
+            "line": 12,
+            "column": 50
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 12,
+              "column": 8
+            },
+            "end": {
+              "line": 12,
+              "column": 29
+            }
+          },
+          {
+            "start": {
+              "line": 12,
+              "column": 33
+            },
+            "end": {
+              "line": 12,
+              "column": 50
+            }
+          }
+        ],
+        "line": 12
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 49,
+            "column": 8
+          },
+          "end": {
+            "line": 53,
+            "column": 16
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 49,
+              "column": 8
+            },
+            "end": {
+              "line": 49,
+              "column": 19
+            }
+          },
+          {
+            "start": {
+              "line": 49,
+              "column": 39
+            },
+            "end": {
+              "line": 53,
+              "column": 16
+            }
+          }
+        ],
+        "line": 49
+      }
+    },
+    "s": {
+      "0": 881,
+      "1": 881,
+      "2": 853,
+      "3": 28,
+      "4": 881,
+      "5": 28,
+      "6": 28,
+      "7": 881,
+      "8": 27,
+      "9": 264,
+      "10": 264,
+      "11": 264,
+      "12": 264,
+      "13": 0,
+      "14": 264,
+      "15": 0,
+      "16": 0,
+      "17": 264,
+      "18": 27,
+      "19": 27,
+      "20": 27,
+      "21": 27,
+      "22": 27,
+      "23": 27,
+      "24": 27,
+      "25": 27,
+      "26": 27,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0
+    },
+    "f": {
+      "0": 881,
+      "1": 264,
+      "2": 0,
+      "3": 0,
+      "4": 27,
+      "5": 0
+    },
+    "b": {
+      "0": [
+        28,
+        0
+      ],
+      "1": [
+        0,
+        28
+      ],
+      "2": [
+        853,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        264,
+        0
+      ],
+      "5": [
+        28,
+        0
+      ],
+      "6": [
+        0,
+        0
+      ],
+      "7": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/Card.tsx"
+      ],
+      "mappings": "AA4BQ;AA5BR,SAAgB,gBAAgB;AAChC,OAAO,aAAa;AAEpB,OAAO,WAAW;AAElB,SAAS,KAAK,OAAqB;AACjC,QAAM,EAAE,OAAO,MAAM,QAAQ,GAAG,IAAI;AACpC,QAAM,CAAC,aAAa,cAAc,IAAI,SAAS,KAAK;AAEpD,QAAM,cAAc,YAAY;AAC9B,mBAAe,IAAI;AAAA,EACrB;AAEA,QAAM,gBAAgB,CAAC,UAA+C;AACpE,QAAI,MAAM,QAAQ,WAAW,MAAM,QAAQ,KAAK;AAC9C,kBAAY;AAAA,IACd;AAAA,EACF;AACA,SACE;AAAA,IAAC;AAAA;AAAA,MACC,WAAU;AAAA,MACV,SAAS;AAAA,MACT,WAAW;AAAA,MACX,MAAK;AAAA,MACL,UAAU;AAAA,MACV,IAAI,OAAO,EAAE;AAAA,MAEb;AAAA,+BAAC,SAAI,WAAU,cACb,iCAAC,SAAI,WAAU,eAAe,kBAA9B;AAAA;AAAA;AAAA;AAAA,eAAmC,KADrC;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QACA,uBAAC,WAAQ,OAAc,KAAI,mBAAkB,SAAQ,eAArD;AAAA;AAAA;AAAA;AAAA,eAAiE;AAAA,QACjE,uBAAC,SAAI,WAAU,cACb,iCAAC,SAAI,WAAU,sBAAsB,qBAAW,YAAhD;AAAA;AAAA;AAAA;AAAA,eAAyD,KAD3D;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QACC,eAAe,uBAAC,SAAM,gBAAgC,MAAvC;AAAA;AAAA;AAAA;AAAA,eAA+C;AAAA;AAAA;AAAA,IAfjE;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,EAgBA;AAEJ;AACA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "b8fa69d43fe9611b7ee0acc27f98b5d98c2f1319"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/CardList.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/CardList.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 21
+        },
+        "end": {
+          "line": 8,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 7,
+          "column": 17
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 49
+        },
+        "end": {
+          "line": 9,
+          "column": 77
+        }
+      },
+      "3": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 15,
+          "column": 13
+        }
+      },
+      "4": {
+        "start": {
+          "line": 11,
+          "column": 4
+        },
+        "end": {
+          "line": 15,
+          "column": 13
+        }
+      },
+      "5": {
+        "start": {
+          "line": 16,
+          "column": 2
+        },
+        "end": {
+          "line": 21,
+          "column": 13
+        }
+      },
+      "6": {
+        "start": {
+          "line": 17,
+          "column": 4
+        },
+        "end": {
+          "line": 21,
+          "column": 13
+        }
+      },
+      "7": {
+        "start": {
+          "line": 22,
+          "column": 2
+        },
+        "end": {
+          "line": 44,
+          "column": 11
+        }
+      },
+      "8": {
+        "start": {
+          "line": 23,
+          "column": 4
+        },
+        "end": {
+          "line": 39,
+          "column": 6
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "CardList",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 9
+          },
+          "end": {
+            "line": 5,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 45,
+            "column": 1
+          }
+        },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 33
+          },
+          "end": {
+            "line": 6,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 44
+          },
+          "end": {
+            "line": 8,
+            "column": 3
+          }
+        },
+        "line": 6
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 96
+          },
+          "end": {
+            "line": 22,
+            "column": 97
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 104
+          },
+          "end": {
+            "line": 40,
+            "column": 3
+          }
+        },
+        "line": 22
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 2
+          },
+          "end": {
+            "line": 15,
+            "column": 13
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 10,
+              "column": 2
+            },
+            "end": {
+              "line": 15,
+              "column": 13
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 10
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 6
+          },
+          "end": {
+            "line": 10,
+            "column": 29
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 10,
+              "column": 6
+            },
+            "end": {
+              "line": 10,
+              "column": 15
+            }
+          },
+          {
+            "start": {
+              "line": 10,
+              "column": 19
+            },
+            "end": {
+              "line": 10,
+              "column": 29
+            }
+          }
+        ],
+        "line": 10
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 2
+          },
+          "end": {
+            "line": 21,
+            "column": 13
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 16,
+              "column": 2
+            },
+            "end": {
+              "line": 21,
+              "column": 13
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 16
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 6
+          },
+          "end": {
+            "line": 16,
+            "column": 20
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 16,
+              "column": 6
+            },
+            "end": {
+              "line": 16,
+              "column": 11
+            }
+          },
+          {
+            "start": {
+              "line": 16,
+              "column": 15
+            },
+            "end": {
+              "line": 16,
+              "column": 20
+            }
+          }
+        ],
+        "line": 16
+      }
+    },
+    "s": {
+      "0": 330,
+      "1": 632,
+      "2": 302,
+      "3": 330,
+      "4": 262,
+      "5": 96,
+      "6": 41,
+      "7": 83,
+      "8": 881,
+      "9": 90,
+      "10": 90,
+      "11": 180,
+      "12": 90,
+      "13": 90,
+      "14": 69,
+      "15": 21,
+      "16": 4,
+      "17": 17,
+      "18": 264,
+      "19": 27,
+      "20": 15,
+      "21": 27,
+      "22": 27,
+      "23": 27,
+      "24": 27,
+      "25": 27,
+      "26": 27,
+      "27": 27,
+      "28": 27,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0,
+      "33": 0
+    },
+    "f": {
+      "0": 330,
+      "1": 697,
+      "2": 1039,
+      "3": 264,
+      "4": 15,
+      "5": 27,
+      "6": 0
+    },
+    "b": {
+      "0": [
+        262,
+        68
+      ],
+      "1": [
+        302,
+        174
+      ],
+      "2": [
+        85,
+        76
+      ],
+      "3": [
+        161,
+        113
+      ],
+      "4": [
+        4,
+        17
+      ],
+      "5": [
+        21,
+        21
+      ],
+      "6": [
+        28,
+        0
+      ],
+      "7": [
+        0,
+        0
+      ],
+      "8": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/CardList.tsx"
+      ],
+      "mappings": "AAWsC;AATtC,SAAS,mBAAmB;AAC5B,OAAO,UAAU;AACjB,SAAS,4BAA4B;AAErC,SAAS,WAAW;AAClB,QAAM,EAAE,OAAO,IAAI,YAAY,CAAC,UAAqB;AACnD,WAAO;AAAA,EACT,CAAC;AACD,QAAM,EAAE,MAAM,WAAW,YAAY,MAAM,IAAI,qBAAqB,MAAM;AAC1E,MAAI,aAAa;AAAY,WAAO,uBAAC,SAAI,0BAAL;AAAA;AAAA;AAAA;AAAA,WAAe;AACnD,MAAI,CAAC,QAAQ;AAAO,WAAO,uBAAC,SAAI,gCAAL;AAAA;AAAA;AAAA;AAAA,WAAqB;AAEhD,SACE,uBAAC,SAAI,WAAU,iBACZ,eAAK,QAAQ,IAAI,CAAC,OAAmB;AACpC,WACE;AAAA,MAAC;AAAA;AAAA,QAEC,OAAO,GAAG;AAAA,QACV,MAAM,GAAG;AAAA,QACT,QAAQ,GAAG;AAAA,QACX,IAAI,GAAG;AAAA;AAAA,MAJF,GAAG;AAAA,MADV;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAMA;AAAA,EAEJ,CAAC,KAXH;AAAA;AAAA;AAAA;AAAA,SAYA;AAEJ;AACA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "0968c8793116b6f56a1a0fb482a9f3308caf9b9f"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/redux/searchReducer.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/redux/searchReducer.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 2,
+          "column": 29
+        },
+        "end": {
+          "line": 10,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 6
+        },
+        "end": {
+          "line": 7,
+          "column": 28
+        }
+      },
+      "2": {
+        "start": {
+          "line": 11,
+          "column": 33
+        },
+        "end": {
+          "line": 11,
+          "column": 54
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 19
+          },
+          "end": {
+            "line": 6,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 38
+          },
+          "end": {
+            "line": 8,
+            "column": 5
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 119,
+      "1": 34,
+      "2": 119
+    },
+    "f": {
+      "0": 34
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/redux/searchReducer.tsx"
+      ],
+      "mappings": "AAAA,SAAS,mBAAmB;AAErB,aAAM,gBAAgB,YAAY;AAAA,EACvC,MAAM;AAAA,EACN,cAAc;AAAA,EACd,UAAU;AAAA,IACR,eAAe,CAAC,OAAO,WAAW;AAChC,aAAO,OAAO;AAAA,IAChB;AAAA,EACF;AACF,CAAC;AAEM,aAAM,EAAE,cAAc,IAAI,cAAc;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "b746107a96edef51ef050d03125f3b0c77ffcd83"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/SearchBar.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/SearchBar.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 18
+        },
+        "end": {
+          "line": 53,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 19
+        },
+        "end": {
+          "line": 6,
+          "column": 32
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 21
+        },
+        "end": {
+          "line": 9,
+          "column": 4
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 4
+        },
+        "end": {
+          "line": 8,
+          "column": 17
+        }
+      },
+      "4": {
+        "start": {
+          "line": 10,
+          "column": 19
+        },
+        "end": {
+          "line": 10,
+          "column": 29
+        }
+      },
+      "5": {
+        "start": {
+          "line": 11,
+          "column": 24
+        },
+        "end": {
+          "line": 13,
+          "column": 3
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 4
+        },
+        "end": {
+          "line": 12,
+          "column": 38
+        }
+      },
+      "7": {
+        "start": {
+          "line": 14,
+          "column": 19
+        },
+        "end": {
+          "line": 16,
+          "column": 3
+        }
+      },
+      "8": {
+        "start": {
+          "line": 15,
+          "column": 4
+        },
+        "end": {
+          "line": 15,
+          "column": 46
+        }
+      },
+      "9": {
+        "start": {
+          "line": 18,
+          "column": 4
+        },
+        "end": {
+          "line": 20,
+          "column": 5
+        }
+      },
+      "10": {
+        "start": {
+          "line": 19,
+          "column": 6
+        },
+        "end": {
+          "line": 19,
+          "column": 17
+        }
+      },
+      "11": {
+        "start": {
+          "line": 22,
+          "column": 2
+        },
+        "end": {
+          "line": 52,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "SearchBar2",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 40
+          },
+          "end": {
+            "line": 53,
+            "column": 1
+          }
+        },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 33
+          },
+          "end": {
+            "line": 7,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 44
+          },
+          "end": {
+            "line": 9,
+            "column": 3
+          }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 24
+          },
+          "end": {
+            "line": 11,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 31
+          },
+          "end": {
+            "line": 13,
+            "column": 3
+          }
+        },
+        "line": 11
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 19
+          },
+          "end": {
+            "line": 14,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 25
+          },
+          "end": {
+            "line": 16,
+            "column": 3
+          }
+        },
+        "line": 14
+      },
+      "4": {
+        "name": "handleKeyDown",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 11
+          },
+          "end": {
+            "line": 17,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 32
+          },
+          "end": {
+            "line": 21,
+            "column": 3
+          }
+        },
+        "line": 17
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 4
+          },
+          "end": {
+            "line": 20,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 18,
+              "column": 4
+            },
+            "end": {
+              "line": 20,
+              "column": 5
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 18
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 22
+          },
+          "end": {
+            "line": 30,
+            "column": 34
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 30,
+              "column": 22
+            },
+            "end": {
+              "line": 30,
+              "column": 28
+            }
+          },
+          {
+            "start": {
+              "line": 30,
+              "column": 32
+            },
+            "end": {
+              "line": 30,
+              "column": 34
+            }
+          }
+        ],
+        "line": 30
+      }
+    },
+    "s": {
+      "0": 119,
+      "1": 330,
+      "2": 302,
+      "3": 632,
+      "4": 330,
+      "5": 330,
+      "6": 483,
+      "7": 330,
+      "8": 54,
+      "9": 483,
+      "10": 93,
+      "11": 395,
+      "12": 90,
+      "13": 180,
+      "14": 90,
+      "15": 90,
+      "16": 140,
+      "17": 90,
+      "18": 8,
+      "19": 140,
+      "20": 0,
+      "21": 90,
+      "22": 27,
+      "23": 15,
+      "24": 27,
+      "25": 27,
+      "26": 27,
+      "27": 27,
+      "28": 27,
+      "29": 27,
+      "30": 27,
+      "31": 27,
+      "32": 0,
+      "33": 0,
+      "34": 0,
+      "35": 0,
+      "36": 0
+    },
+    "f": {
+      "0": 330,
+      "1": 697,
+      "2": 641,
+      "3": 166,
+      "4": 463,
+      "5": 140,
+      "6": 15,
+      "7": 27,
+      "8": 0
+    },
+    "b": {
+      "0": [
+        28,
+        455
+      ],
+      "1": [
+        302,
+        226
+      ],
+      "2": [
+        0,
+        140
+      ],
+      "3": [
+        93,
+        61
+      ],
+      "4": [
+        28,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ],
+      "6": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/SearchBar.tsx"
+      ],
+      "mappings": "AA4BM;AA5BN,SAA6B,cAAc;AAE3C,SAAS,aAAa,mBAAmB;AACzC,SAAS,qBAAqB;AAE9B,MAAM,YAAY,SAASA,aAAY;AACrC,QAAM,WAAW,YAAY;AAC7B,QAAM,EAAE,OAAO,IAAI,YAAY,CAAC,UAAqB;AACnD,WAAO;AAAA,EACT,CAAC;AACD,QAAM,WAAW,OAAO,EAAE;AAE1B,QAAM,gBAAgB,CAAC,MAAqC;AAC1D,aAAS,UAAU,EAAE,OAAO;AAAA,EAC9B;AAEA,QAAM,WAAW,MAAM;AACrB,aAAS,cAAc,SAAS,OAAO,CAAC;AAAA,EAC1C;AAEA,WAAS,cAAc,OAA8C;AACnE,QAAI,MAAM,QAAQ,SAAS;AACzB,eAAS;AAAA,IACX;AAAA,EACF;AAEA,SACE,uBAAC,SAAI,WAAU,gBACb;AAAA;AAAA,MAAC;AAAA;AAAA,QACC,MAAK;AAAA,QACL,MAAK;AAAA,QACL,aAAY;AAAA,QACZ,WAAU;AAAA,QACV,cAAc,UAAU;AAAA,QACxB,UAAU;AAAA,QACV,WAAW;AAAA;AAAA,MAPb;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAQA;AAAA,IACA,uBAAC,YAAO,MAAK,UAAS,WAAU,eAAc,SAAS,UAAU,sBAAjE;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,OAZF;AAAA;AAAA;AAAA;AAAA,SAaA;AAEJ;AAEA,eAAe;",
+      "names": [
+        "SearchBar"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ab5a3a92932db56d07efc3b8043a8641a9a9895a"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/Home.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/Home.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 24,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Home",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 9
+          },
+          "end": {
+            "line": 4,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 16
+          },
+          "end": {
+            "line": 25,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 80,
+      "1": 27,
+      "2": 0,
+      "3": 27,
+      "4": 27,
+      "5": 27,
+      "6": 27,
+      "7": 27,
+      "8": 15,
+      "9": 27,
+      "10": 27,
+      "11": 27,
+      "12": 27,
+      "13": 27,
+      "14": 27,
+      "15": 27,
+      "16": 27,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0
+    },
+    "f": {
+      "0": 80,
+      "1": 15,
+      "2": 27,
+      "3": 0
+    },
+    "b": {
+      "0": [
+        28,
+        0
+      ],
+      "1": [
+        0,
+        28
+      ],
+      "2": [
+        28,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/Home.tsx"
+      ],
+      "mappings": "AAQQ;AAPR,OAAO,cAAc;AACrB,OAAO,eAAe;AAEtB,SAAS,OAAO;AACd,SACE,uBAAC,SACC,iCAAC,UAAK,WAAU,QACd;AAAA,2BAAC,eAAc,gBAAf;AAAA;AAAA;AAAA;AAAA,WAA8B;AAAA,IAC9B,uBAAC,cAAD;AAAA;AAAA;AAAA;AAAA,WAAU;AAAA,OAFZ;AAAA;AAAA;AAAA;AAAA,SAGA,KAJF;AAAA;AAAA;AAAA;AAAA,SAKA;AAEJ;AACA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "19b0da355e885635dd8fc52a622257584535d715"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/Error.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/Error.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 29,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Error",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 9
+          },
+          "end": {
+            "line": 4,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 17
+          },
+          "end": {
+            "line": 30,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 28,
+      "1": 27,
+      "2": 0,
+      "3": 27,
+      "4": 27,
+      "5": 27,
+      "6": 27,
+      "7": 27,
+      "8": 0,
+      "9": 27,
+      "10": 27,
+      "11": 27,
+      "12": 27,
+      "13": 27,
+      "14": 27,
+      "15": 27,
+      "16": 27,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0
+    },
+    "f": {
+      "0": 28,
+      "1": 0,
+      "2": 27,
+      "3": 0
+    },
+    "b": {
+      "0": [
+        28,
+        0
+      ],
+      "1": [
+        0,
+        28
+      ],
+      "2": [
+        28,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/Error.tsx"
+      ],
+      "mappings": "AAOM;AANN,SAAS,YAAY;AACrB,OAAO,WAAW;AAElB,SAAS,QAAQ;AACf,SACE,uBAAC,SAAI,WAAU,SACb;AAAA,2BAAC,QAAG,WAAU,aAAY,qCAA1B;AAAA;AAAA;AAAA;AAAA,WAA+C;AAAA,IAC/C,uBAAC,QAAK,IAAG,KAAI,WAAU,eAAc,uBAArC;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACA,uBAAC,SAAI,WAAU,qBACb,iCAAC,SAAI,KAAK,OAAO,WAAU,gBAAe,KAAI,aAA9C;AAAA;AAAA;AAAA;AAAA,WAAwD,KAD1D;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,OAPF;AAAA;AAAA;AAAA;AAAA,SAQA;AAEJ;AACA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "d57613c458fb531d13e52c6c126cf1848ec4d5c6"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/AboutUs.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/AboutUs.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 2
+        },
+        "end": {
+          "line": 7,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "AboutUs",
+        "decl": {
+          "start": {
+            "line": 2,
+            "column": 9
+          },
+          "end": {
+            "line": 2,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 19
+          },
+          "end": {
+            "line": 8,
+            "column": 1
+          }
+        },
+        "line": 2
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 28,
+      "1": 27,
+      "2": 0,
+      "3": 27,
+      "4": 27,
+      "5": 27,
+      "6": 27,
+      "7": 27,
+      "8": 0,
+      "9": 27,
+      "10": 27,
+      "11": 27,
+      "12": 27,
+      "13": 27,
+      "14": 27,
+      "15": 27,
+      "16": 27,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0
+    },
+    "f": {
+      "0": 28,
+      "1": 0,
+      "2": 27,
+      "3": 0
+    },
+    "b": {
+      "0": [
+        28,
+        0
+      ],
+      "1": [
+        0,
+        28
+      ],
+      "2": [
+        28,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/AboutUs.tsx"
+      ],
+      "mappings": "AAGS;AADT,SAAS,UAAU;AACjB,SAAO,uBAAC,SAAI,qCAAL;AAAA;AAAA;AAAA;AAAA,SAA0B;AACnC;AACA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "9b99b5328ef09913101ab98bc655c12465ed5f51"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/redux/formReducer.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/redux/formReducer.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 2,
+          "column": 21
+        },
+        "end": {
+          "line": 4,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 27
+        },
+        "end": {
+          "line": 16,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 10,
+          "column": 6
+        },
+        "end": {
+          "line": 13,
+          "column": 8
+        }
+      },
+      "3": {
+        "start": {
+          "line": 17,
+          "column": 31
+        },
+        "end": {
+          "line": 17,
+          "column": 50
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 17
+          },
+          "end": {
+            "line": 9,
+            "column": 18
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 36
+          },
+          "end": {
+            "line": 14,
+            "column": 5
+          }
+        },
+        "line": 9
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 119,
+      "1": 119,
+      "2": 17,
+      "3": 119
+    },
+    "f": {
+      "0": 17
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/redux/formReducer.tsx"
+      ],
+      "mappings": "AAAA,SAAS,mBAAmB;AAG5B,MAAM,eAA+B;AAAA,EACnC,WAAW,CAAC;AACd;AAEO,aAAM,cAAc,YAAY;AAAA,EACrC,MAAM;AAAA,EACN;AAAA,EACA,UAAU;AAAA,IACR,aAAa,CAAC,OAAO,WAA4B;AAC/C,aAAO;AAAA,QACL,GAAG;AAAA,QACH,WAAW,CAAC,GAAG,MAAM,WAAW,OAAO,OAAO;AAAA,MAChD;AAAA,IACF;AAAA,EACF;AACF,CAAC;AAEM,aAAM,EAAE,YAAY,IAAI,YAAY;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "892f3efae2825cea81c60b5db76628d0bd70643f"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/validationFunctions.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/validationFunctions.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 29
+        },
+        "end": {
+          "line": 7,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "end": {
+          "line": 4,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 4
+        },
+        "end": {
+          "line": 3,
+          "column": 17
+        }
+      },
+      "3": {
+        "start": {
+          "line": 5,
+          "column": 17
+        },
+        "end": {
+          "line": 5,
+          "column": 43
+        }
+      },
+      "4": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 6,
+          "column": 32
+        }
+      },
+      "5": {
+        "start": {
+          "line": 8,
+          "column": 28
+        },
+        "end": {
+          "line": 20,
+          "column": 1
+        }
+      },
+      "6": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 10,
+          "column": 4
+        },
+        "end": {
+          "line": 10,
+          "column": 17
+        }
+      },
+      "8": {
+        "start": {
+          "line": 12,
+          "column": 22
+        },
+        "end": {
+          "line": 12,
+          "column": 37
+        }
+      },
+      "9": {
+        "start": {
+          "line": 13,
+          "column": 18
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      },
+      "10": {
+        "start": {
+          "line": 18,
+          "column": 16
+        },
+        "end": {
+          "line": 18,
+          "column": 26
+        }
+      },
+      "11": {
+        "start": {
+          "line": 19,
+          "column": 2
+        },
+        "end": {
+          "line": 19,
+          "column": 46
+        }
+      },
+      "12": {
+        "start": {
+          "line": 21,
+          "column": 30
+        },
+        "end": {
+          "line": 23,
+          "column": 1
+        }
+      },
+      "13": {
+        "start": {
+          "line": 22,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": 45
+        }
+      },
+      "14": {
+        "start": {
+          "line": 24,
+          "column": 31
+        },
+        "end": {
+          "line": 26,
+          "column": 1
+        }
+      },
+      "15": {
+        "start": {
+          "line": 25,
+          "column": 2
+        },
+        "end": {
+          "line": 25,
+          "column": 27
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 29
+          },
+          "end": {
+            "line": 1,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 7,
+            "column": 1
+          }
+        },
+        "line": 1
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 28
+          },
+          "end": {
+            "line": 8,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 38
+          },
+          "end": {
+            "line": 20,
+            "column": 1
+          }
+        },
+        "line": 8
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 21,
+            "column": 30
+          },
+          "end": {
+            "line": 21,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 45
+          },
+          "end": {
+            "line": 23,
+            "column": 1
+          }
+        },
+        "line": 21
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 31
+          },
+          "end": {
+            "line": 24,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 45
+          },
+          "end": {
+            "line": 26,
+            "column": 1
+          }
+        },
+        "line": 24
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 2
+          },
+          "end": {
+            "line": 4,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 2,
+              "column": 2
+            },
+            "end": {
+              "line": 4,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 2
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 2
+          },
+          "end": {
+            "line": 11,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 2
+            },
+            "end": {
+              "line": 11,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 9
+      }
+    },
+    "s": {
+      "0": 119,
+      "1": 17,
+      "2": 0,
+      "3": 17,
+      "4": 17,
+      "5": 119,
+      "6": 17,
+      "7": 0,
+      "8": 17,
+      "9": 17,
+      "10": 17,
+      "11": 17,
+      "12": 119,
+      "13": 34,
+      "14": 119,
+      "15": 17
+    },
+    "f": {
+      "0": 17,
+      "1": 17,
+      "2": 34,
+      "3": 17
+    },
+    "b": {
+      "0": [
+        0,
+        17
+      ],
+      "1": [
+        0,
+        17
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/validationFunctions.tsx"
+      ],
+      "mappings": "AAAO,aAAM,gBAAgB,CAAC,cAA+B;AAC3D,MAAI,CAAC,WAAW;AACd,WAAO;AAAA,EACT;AACA,QAAM,SAAS;AACf,SAAO,OAAO,KAAK,SAAS;AAC9B;AAEO,aAAM,eAAe,CAAC,SAA0B;AACrD,MAAI,CAAC,MAAM;AACT,WAAO;AAAA,EACT;AACA,QAAM,cAAc,KAAK,MAAM,GAAG;AAClC,QAAM,UAAU,IAAI;AAAA,IAClB,OAAO,YAAY,CAAC,CAAC;AAAA,IACrB,OAAO,YAAY,CAAC,CAAC,IAAI;AAAA,IACzB,OAAO,YAAY,CAAC,CAAC;AAAA,EACvB;AACA,QAAM,QAAQ,IAAI,KAAK;AACvB,SAAO,QAAQ,QAAQ,KAAK,MAAM,QAAQ;AAC5C;AAEO,aAAM,iBAAiB,CAAC,cAA+B;AAC5D,SAAO,cAAc;AACvB;AAEO,aAAM,kBAAkB,CAAC,aAA+B;AAC7D,SAAO,aAAa;AACtB;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ec0556e3a356cfb2565e7790ee24035de1cf5208"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/FormComponentHook.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/FormComponentHook.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 13,
+          "column": 19
+        },
+        "end": {
+          "line": 13,
+          "column": 32
+        }
+      },
+      "1": {
+        "start": {
+          "line": 14,
+          "column": 40
+        },
+        "end": {
+          "line": 14,
+          "column": 55
+        }
+      },
+      "2": {
+        "start": {
+          "line": 20,
+          "column": 6
+        },
+        "end": {
+          "line": 20,
+          "column": 45
+        }
+      },
+      "3": {
+        "start": {
+          "line": 22,
+          "column": 4
+        },
+        "end": {
+          "line": 30,
+          "column": 6
+        }
+      },
+      "4": {
+        "start": {
+          "line": 33,
+          "column": 4
+        },
+        "end": {
+          "line": 33,
+          "column": 56
+        }
+      },
+      "5": {
+        "start": {
+          "line": 34,
+          "column": 4
+        },
+        "end": {
+          "line": 34,
+          "column": 25
+        }
+      },
+      "6": {
+        "start": {
+          "line": 35,
+          "column": 4
+        },
+        "end": {
+          "line": 37,
+          "column": 12
+        }
+      },
+      "7": {
+        "start": {
+          "line": 36,
+          "column": 6
+        },
+        "end": {
+          "line": 36,
+          "column": 28
+        }
+      },
+      "8": {
+        "start": {
+          "line": 38,
+          "column": 4
+        },
+        "end": {
+          "line": 38,
+          "column": 12
+        }
+      },
+      "9": {
+        "start": {
+          "line": 40,
+          "column": 2
+        },
+        "end": {
+          "line": 282,
+          "column": 11
+        }
+      },
+      "10": {
+        "start": {
+          "line": 48,
+          "column": 31
+        },
+        "end": {
+          "line": 48,
+          "column": 51
+        }
+      },
+      "11": {
+        "start": {
+          "line": 74,
+          "column": 33
+        },
+        "end": {
+          "line": 74,
+          "column": 52
+        }
+      },
+      "12": {
+        "start": {
+          "line": 104,
+          "column": 33
+        },
+        "end": {
+          "line": 104,
+          "column": 54
+        }
+      },
+      "13": {
+        "start": {
+          "line": 153,
+          "column": 33
+        },
+        "end": {
+          "line": 153,
+          "column": 55
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "FormComponentHook",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 9
+          },
+          "end": {
+            "line": 12,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 29
+          },
+          "end": {
+            "line": 283,
+            "column": 1
+          }
+        },
+        "line": 12
+      },
+      "1": {
+        "name": "createValidationObject",
+        "decl": {
+          "start": {
+            "line": 21,
+            "column": 11
+          },
+          "end": {
+            "line": 21,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 40
+          },
+          "end": {
+            "line": 31,
+            "column": 3
+          }
+        },
+        "line": 21
+      },
+      "2": {
+        "name": "onSubmit",
+        "decl": {
+          "start": {
+            "line": 32,
+            "column": 11
+          },
+          "end": {
+            "line": 32,
+            "column": 19
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 26
+          },
+          "end": {
+            "line": 39,
+            "column": 3
+          }
+        },
+        "line": 32
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 35,
+            "column": 15
+          },
+          "end": {
+            "line": 35,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 21
+          },
+          "end": {
+            "line": 37,
+            "column": 5
+          }
+        },
+        "line": 35
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 48,
+            "column": 20
+          },
+          "end": {
+            "line": 48,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 31
+          },
+          "end": {
+            "line": 48,
+            "column": 51
+          }
+        },
+        "line": 48
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 74,
+            "column": 22
+          },
+          "end": {
+            "line": 74,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 74,
+            "column": 33
+          },
+          "end": {
+            "line": 74,
+            "column": 52
+          }
+        },
+        "line": 74
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 104,
+            "column": 22
+          },
+          "end": {
+            "line": 104,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 104,
+            "column": 33
+          },
+          "end": {
+            "line": 104,
+            "column": 54
+          }
+        },
+        "line": 104
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 153,
+            "column": 22
+          },
+          "end": {
+            "line": 153,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 153,
+            "column": 33
+          },
+          "end": {
+            "line": 153,
+            "column": 55
+          }
+        },
+        "line": 153
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 60,
+            "column": 4
+          },
+          "end": {
+            "line": 64,
+            "column": 12
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 60,
+              "column": 4
+            },
+            "end": {
+              "line": 60,
+              "column": 16
+            }
+          },
+          {
+            "start": {
+              "line": 60,
+              "column": 36
+            },
+            "end": {
+              "line": 64,
+              "column": 12
+            }
+          }
+        ],
+        "line": 60
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 86,
+            "column": 6
+          },
+          "end": {
+            "line": 90,
+            "column": 14
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 86,
+              "column": 6
+            },
+            "end": {
+              "line": 86,
+              "column": 17
+            }
+          },
+          {
+            "start": {
+              "line": 86,
+              "column": 37
+            },
+            "end": {
+              "line": 90,
+              "column": 14
+            }
+          }
+        ],
+        "line": 86
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 133,
+            "column": 6
+          },
+          "end": {
+            "line": 137,
+            "column": 14
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 133,
+              "column": 6
+            },
+            "end": {
+              "line": 133,
+              "column": 19
+            }
+          },
+          {
+            "start": {
+              "line": 133,
+              "column": 39
+            },
+            "end": {
+              "line": 137,
+              "column": 14
+            }
+          }
+        ],
+        "line": 133
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 165,
+            "column": 6
+          },
+          "end": {
+            "line": 169,
+            "column": 14
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 165,
+              "column": 6
+            },
+            "end": {
+              "line": 165,
+              "column": 20
+            }
+          },
+          {
+            "start": {
+              "line": 165,
+              "column": 40
+            },
+            "end": {
+              "line": 169,
+              "column": 14
+            }
+          }
+        ],
+        "line": 165
+      },
+      "4": {
+        "loc": {
+          "start": {
+            "line": 228,
+            "column": 6
+          },
+          "end": {
+            "line": 232,
+            "column": 14
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 228,
+              "column": 6
+            },
+            "end": {
+              "line": 228,
+              "column": 18
+            }
+          },
+          {
+            "start": {
+              "line": 228,
+              "column": 38
+            },
+            "end": {
+              "line": 232,
+              "column": 14
+            }
+          }
+        ],
+        "line": 228
+      },
+      "5": {
+        "loc": {
+          "start": {
+            "line": 258,
+            "column": 6
+          },
+          "end": {
+            "line": 262,
+            "column": 14
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 258,
+              "column": 6
+            },
+            "end": {
+              "line": 258,
+              "column": 22
+            }
+          },
+          {
+            "start": {
+              "line": 258,
+              "column": 42
+            },
+            "end": {
+              "line": 262,
+              "column": 14
+            }
+          }
+        ],
+        "line": 258
+      },
+      "6": {
+        "loc": {
+          "start": {
+            "line": 273,
+            "column": 4
+          },
+          "end": {
+            "line": 277,
+            "column": 12
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 273,
+              "column": 4
+            },
+            "end": {
+              "line": 273,
+              "column": 15
+            }
+          },
+          {
+            "start": {
+              "line": 273,
+              "column": 35
+            },
+            "end": {
+              "line": 277,
+              "column": 12
+            }
+          }
+        ],
+        "line": 273
+      }
+    },
+    "s": {
+      "0": 106,
+      "1": 106,
+      "2": 78,
+      "3": 41,
+      "4": 41,
+      "5": 41,
+      "6": 41,
+      "7": 28,
+      "8": 41,
+      "9": 102,
+      "10": 37,
+      "11": 37,
+      "12": 50,
+      "13": 17,
+      "14": 4,
+      "15": 4,
+      "16": 4,
+      "17": 0,
+      "18": 4,
+      "19": 24,
+      "20": 4,
+      "21": 4,
+      "22": 8,
+      "23": 4,
+      "24": 27,
+      "25": 12,
+      "26": 27,
+      "27": 27,
+      "28": 27,
+      "29": 27,
+      "30": 27,
+      "31": 27,
+      "32": 27,
+      "33": 27,
+      "34": 0,
+      "35": 0,
+      "36": 0,
+      "37": 0,
+      "38": 0
+    },
+    "f": {
+      "0": 106,
+      "1": 37,
+      "2": 17,
+      "3": 4,
+      "4": 13,
+      "5": 17,
+      "6": 30,
+      "7": 21,
+      "8": 4,
+      "9": 12,
+      "10": 27,
+      "11": 0
+    },
+    "b": {
+      "0": [
+        106,
+        13
+      ],
+      "1": [
+        78,
+        41
+      ],
+      "2": [
+        102,
+        17
+      ],
+      "3": [
+        102,
+        17
+      ],
+      "4": [
+        102,
+        17
+      ],
+      "5": [
+        102,
+        17
+      ],
+      "6": [
+        102,
+        17
+      ],
+      "7": [
+        24,
+        4
+      ],
+      "8": [
+        24,
+        4
+      ],
+      "9": [
+        28,
+        0
+      ],
+      "10": [
+        0,
+        0
+      ],
+      "11": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/FormComponentHook.tsx"
+      ],
+      "mappings": "AA6CM;AA7CN,SAAgB,gBAAgB;AAChC,SAAS,eAAe;AACxB,SAAS,mBAAmB;AAC5B,SAAS,mBAAmB;AAC5B;AAAA,EACE;AAAA,EACA;AAAA,EACA;AAAA,EACA;AAAA,OACK;AAGP,SAAS,oBAAoB;AAC3B,QAAM,WAAW,YAAY;AAC7B,QAAM,CAAC,aAAa,cAAc,IAAI,SAAS,KAAK;AACpD,QAAM;AAAA,IACJ;AAAA,IACA;AAAA,IACA;AAAA,IACA,WAAW,EAAE,OAAO;AAAA,EACtB,IAAI,QAAqB,EAAE,gBAAgB,WAAW,CAAC;AAEvD,WAAS,uBAAuB,MAAmB;AACjD,WAAO;AAAA,MACL,IAAI,KAAK,IAAI;AAAA,MACb,OAAO,KAAK;AAAA,MACZ,MAAM,KAAK;AAAA,MACX,QAAQ,KAAK;AAAA,MACb,SAAS,KAAK;AAAA,MACd,OAAO,KAAK;AAAA,MACZ,WAAW,IAAI,gBAAgB,KAAK,UAAU,CAAC,CAAC;AAAA,IAClD;AAAA,EACF;AAEA,WAAS,SAAS,MAAmB;AACnC,aAAS,YAAY,uBAAuB,IAAI,CAAC,CAAC;AAClD,mBAAe,IAAI;AACnB,eAAW,MAAM;AACf,qBAAe,KAAK;AAAA,IACtB,GAAG,GAAI;AACP,UAAM;AAAA,EACR;AAEA,SACE,uBAAC,UAAK,UAAU,aAAa,QAAQ,GAAG,WAAU,QAChD;AAAA;AAAA,MAAC;AAAA;AAAA,QACC,MAAK;AAAA,QACL,aAAY;AAAA,QACX,GAAG,SAAS,SAAS;AAAA,UACpB,UAAU;AAAA,UACV,UAAU,CAAC,UAAU,cAAc,KAAK;AAAA,QAC1C,CAAC;AAAA;AAAA,MANH;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAOA;AAAA,IACC,OAAO,SACN,uBAAC,SAAI,WAAU,YAAW,0FAA1B;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,IAEF,uBAAC,WAAM,SAAQ,QAAO;AAAA;AAAA,MAEpB;AAAA,QAAC;AAAA;AAAA,UACC,MAAK;AAAA,UACL,IAAG;AAAA,UACF,GAAG,SAAS,QAAQ;AAAA,YACnB,UAAU;AAAA,YACV,UAAU,CAAC,UAAU,aAAa,KAAK;AAAA,UACzC,CAAC;AAAA;AAAA,QANH;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAOA;AAAA,MACC,OAAO,QACN,uBAAC,SAAI,WAAU,YAAW,0CAA1B;AAAA;AAAA;AAAA;AAAA,aAAoD;AAAA,SAXxD;AAAA;AAAA;AAAA;AAAA,WAaA;AAAA,IACA,uBAAC,WAAM,SAAQ,gBAAe;AAAA;AAAA,MAE5B;AAAA,QAAC;AAAA;AAAA,UACC,IAAG;AAAA,UACF,GAAG,SAAS,UAAU;AAAA,YACrB,UAAU;AAAA,YACV,UAAU,CAAC,UAAU,eAAe,KAAK;AAAA,UAC3C,CAAC;AAAA,UAED;AAAA,mCAAC,YAAO,mCAAR;AAAA;AAAA;AAAA;AAAA,mBAA2B;AAAA,YAC3B,uBAAC,YAAO,sBAAR;AAAA;AAAA;AAAA;AAAA,mBAAc;AAAA,YACd,uBAAC,YAAO,uCAAR;AAAA;AAAA;AAAA;AAAA,mBAAoC;AAAA;AAAA;AAAA,QATtC;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAUA;AAAA,MACC,OAAO,UACN,uBAAC,SAAI,WAAU,YAAW,kDAA1B;AAAA;AAAA;AAAA;AAAA,aAA4D;AAAA,SAdhE;AAAA;AAAA;AAAA;AAAA,WAgBA;AAAA,IACA,uBAAC,WAAM,SAAQ,WAAU;AAAA;AAAA,MAEvB;AAAA,QAAC;AAAA;AAAA,UACC,MAAK;AAAA,UACL,WAAU;AAAA,UACV,IAAG;AAAA,UACF,GAAG,SAAS,WAAW;AAAA,YACtB,UAAU;AAAA,YACV,UAAU,CAAC,UAAU,gBAAgB,KAAK;AAAA,UAC5C,CAAC;AAAA;AAAA,QAPH;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAQA;AAAA,MACC,OAAO,WACN,uBAAC,SAAI,WAAU,YAAW,gFAA1B;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,SAdJ;AAAA;AAAA;AAAA;AAAA,WAgBA;AAAA,IACA,uBAAC,WAAM,SAAQ,eAAc,WAAU,qBACrC;AAAA,6BAAC,WAAM,SAAQ,eACb;AAAA;AAAA,UAAC;AAAA;AAAA,YACC,MAAK;AAAA,YACJ,GAAG,SAAS,SAAS;AAAA,cACpB,UAAU;AAAA,YACZ,CAAC;AAAA,YACD,OAAM;AAAA,YACN,MAAK;AAAA,YACL,IAAG;AAAA;AAAA,UAPL;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,QAQA;AAAA,QAAE;AAAA,WATJ;AAAA;AAAA;AAAA;AAAA,aAWA;AAAA,MACA,uBAAC,WAAM,SAAQ,iBACb;AAAA;AAAA,UAAC;AAAA;AAAA,YACC,MAAK;AAAA,YACJ,GAAG,SAAS,OAAO;AAAA,YACpB,OAAM;AAAA,YACN,MAAK;AAAA,YACL,IAAG;AAAA;AAAA,UALL;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,QAMA;AAAA,QAAE;AAAA,WAPJ;AAAA;AAAA;AAAA;AAAA,aASA;AAAA,MACC,OAAO,SACN,uBAAC,SAAI,WAAU,YAAW,2CAA1B;AAAA;AAAA;AAAA;AAAA,aAAqD;AAAA,SAxBzD;AAAA;AAAA;AAAA;AAAA,WA0BA;AAAA,IACA,uBAAC,WAAM,SAAQ,YAAW;AAAA;AAAA,MAExB;AAAA,QAAC;AAAA;AAAA,UACC,MAAK;AAAA,UACL,WAAU;AAAA,UACV,QAAO;AAAA,UACP,IAAG;AAAA,UACF,GAAG,SAAS,aAAa,EAAE,UAAU,KAAK,CAAC;AAAA;AAAA,QAL9C;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAMA;AAAA,MACC,OAAO,aACN,uBAAC,SAAI,WAAU,YAAW,sCAA1B;AAAA;AAAA;AAAA;AAAA,aAAgD;AAAA,SAVpD;AAAA;AAAA;AAAA;AAAA,WAYA;AAAA,IACA,uBAAC,YAAO,MAAK,UAAS,WAAU,gBAAe,sBAA/C;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACC,eACC,uBAAC,SAAI,WAAU,iBAAgB,uDAA/B;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,OA7GJ;AAAA;AAAA;AAAA;AAAA,SA+GA;AAEJ;AAEA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "c40359d029b21034a42553d0fe18688e2c2c7eb8"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/FormCard.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/FormCard.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 61
+        },
+        "end": {
+          "line": 4,
+          "column": 66
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 55,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "FormCard",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 9
+          },
+          "end": {
+            "line": 3,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 56,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 6
+          },
+          "end": {
+            "line": 37,
+            "column": 28
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 37,
+              "column": 16
+            },
+            "end": {
+              "line": 37,
+              "column": 21
+            }
+          },
+          {
+            "start": {
+              "line": 37,
+              "column": 24
+            },
+            "end": {
+              "line": 37,
+              "column": 28
+            }
+          }
+        ],
+        "line": 37
+      }
+    },
+    "s": {
+      "0": 41,
+      "1": 41,
+      "2": 0,
+      "3": 27,
+      "4": 27,
+      "5": 27,
+      "6": 27,
+      "7": 27,
+      "8": 4,
+      "9": 4,
+      "10": 27,
+      "11": 27,
+      "12": 27,
+      "13": 27,
+      "14": 27,
+      "15": 27,
+      "16": 27,
+      "17": 27,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0
+    },
+    "f": {
+      "0": 41,
+      "1": 4,
+      "2": 27,
+      "3": 0
+    },
+    "b": {
+      "0": [
+        41,
+        0
+      ],
+      "1": [
+        0,
+        28
+      ],
+      "2": [
+        4,
+        0
+      ],
+      "3": [
+        28,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/FormCard.tsx"
+      ],
+      "mappings": "AAQM;AAPN,OAAO,aAAa;AAGpB,SAAS,SAAS,OAAsB;AACtC,QAAM,EAAE,OAAO,MAAM,QAAQ,SAAS,OAAO,UAAU,IAAI;AAC3D,SACE,uBAAC,SAAI,WAAU,QACb;AAAA,2BAAC,WAAQ,OAAO,WAAW,KAAI,YAAW,SAAQ,oBAAlD;AAAA;AAAA;AAAA;AAAA,WAAmE;AAAA,IACnE,uBAAC,SAAI,WAAU,oBAAmB;AAAA;AAAA,MAAsB;AAAA,SAAxD;AAAA;AAAA;AAAA;AAAA,WAA8D;AAAA,IAC9D,uBAAC,SAAI,WAAU,sBAAqB;AAAA;AAAA,MAAuB;AAAA,SAA3D;AAAA;AAAA;AAAA;AAAA,WAAgE;AAAA,IAChE,uBAAC,SAAI,WAAU,sBAAqB;AAAA;AAAA,MAAgB;AAAA,SAApD;AAAA;AAAA;AAAA;AAAA,WAA2D;AAAA,IAC3D,uBAAC,SAAI,WAAU,sBAAqB;AAAA;AAAA,MACL,UAAU,QAAQ;AAAA,SADjD;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACA,uBAAC,SAAI,WAAU,sBAAqB;AAAA;AAAA,MAAgB;AAAA,SAApD;AAAA;AAAA;AAAA;AAAA,WAA0D;AAAA,OAR5D;AAAA;AAAA;AAAA;AAAA,SASA;AAEJ;AACA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "785d50429aef54aef19b02d01eb76bae17f6075b"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/FormCardList.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/FormCardList.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 24
+        },
+        "end": {
+          "line": 4,
+          "column": 29
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 30,
+          "column": 11
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 25,
+          "column": 6
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "FormCardList",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 9
+          },
+          "end": {
+            "line": 3,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 31,
+            "column": 1
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 93
+          },
+          "end": {
+            "line": 5,
+            "column": 94
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 101
+          },
+          "end": {
+            "line": 26,
+            "column": 3
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 80,
+      "1": 80,
+      "2": 13,
+      "3": 27,
+      "4": 27,
+      "5": 27,
+      "6": 27,
+      "7": 27,
+      "8": 16,
+      "9": 16,
+      "10": 4,
+      "11": 27,
+      "12": 27,
+      "13": 27,
+      "14": 27,
+      "15": 27,
+      "16": 27,
+      "17": 27,
+      "18": 27,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0
+    },
+    "f": {
+      "0": 80,
+      "1": 29,
+      "2": 4,
+      "3": 27,
+      "4": 0
+    },
+    "b": {
+      "0": [
+        28,
+        0
+      ],
+      "1": [
+        0,
+        28
+      ],
+      "2": [
+        28,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/FormCardList.tsx"
+      ],
+      "mappings": "AAUU;AARV,OAAO,cAAc;AAErB,SAAS,aAAa,OAAyB;AAC7C,QAAM,EAAE,UAAU,IAAI;AACtB,SACE,uBAAC,SAAI,WAAU,iBACZ,oBAAU,IAAI,CAAC,OAAO;AACrB,WACE;AAAA,MAAC;AAAA;AAAA,QAEC,OAAO,GAAG;AAAA,QACV,MAAM,GAAG;AAAA,QACT,IAAI,GAAG;AAAA,QACP,QAAQ,GAAG;AAAA,QACX,SAAS,GAAG;AAAA,QACZ,OAAO,GAAG;AAAA,QACV,WAAW,GAAG;AAAA;AAAA,MAPT,GAAG;AAAA,MADV;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IASA;AAAA,EAEJ,CAAC,KAdH;AAAA;AAAA;AAAA;AAAA,SAeA;AAEJ;AACA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "cc10d3486fc746365ab88b61124ff3ea349e7b06"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/FormPage.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/FormPage.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 24
+        },
+        "end": {
+          "line": 8,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 7,
+          "column": 27
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 29,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "FormPage",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 9
+          },
+          "end": {
+            "line": 5,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 30,
+            "column": 1
+          }
+        },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 36
+          },
+          "end": {
+            "line": 6,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 47
+          },
+          "end": {
+            "line": 8,
+            "column": 3
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 80,
+      "1": 106,
+      "2": 52,
+      "3": 27,
+      "4": 27,
+      "5": 27,
+      "6": 27,
+      "7": 27,
+      "8": 27,
+      "9": 16,
+      "10": 16,
+      "11": 24,
+      "12": 16,
+      "13": 27,
+      "14": 12,
+      "15": 27,
+      "16": 27,
+      "17": 27,
+      "18": 27,
+      "19": 27,
+      "20": 27,
+      "21": 27,
+      "22": 27,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 0
+    },
+    "f": {
+      "0": 80,
+      "1": 94,
+      "2": 24,
+      "3": 12,
+      "4": 27,
+      "5": 0
+    },
+    "b": {
+      "0": [
+        28,
+        0
+      ],
+      "1": [
+        0,
+        28
+      ],
+      "2": [
+        28,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/FormPage.tsx"
+      ],
+      "mappings": "AAaM;AAZN,SAAS,mBAAmB;AAC5B,OAAO,uBAAuB;AAC9B,OAAO,cAAc;AAGrB,SAAS,WAAW;AAClB,QAAM,EAAE,UAAU,IAAI,YAAY,CAAC,UAAqB;AACtD,WAAO,MAAM;AAAA,EACf,CAAC;AAED,SACE,uBAAC,SAAI,WAAU,aACb;AAAA,2BAAC,QAAG,WAAU,oBAAmB,yEAAjC;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACA,uBAAC,uBAAD;AAAA;AAAA;AAAA;AAAA,WAAmB;AAAA,IACnB,uBAAC,YAAS,aAAV;AAAA;AAAA;AAAA;AAAA,WAAgC;AAAA,OALlC;AAAA;AAAA;AAAA;AAAA,SAMA;AAEJ;AAEA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "4076a6d1ff9e57b9aec2b78a8341a8caa8d68565"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/routes.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/routes.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 49,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "MyRoutes",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 9
+          },
+          "end": {
+            "line": 7,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 20
+          },
+          "end": {
+            "line": 50,
+            "column": 1
+          }
+        },
+        "line": 7
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 119,
+      "1": 27,
+      "2": 0,
+      "3": 27,
+      "4": 27,
+      "5": 27,
+      "6": 27,
+      "7": 27,
+      "8": 27,
+      "9": 27,
+      "10": 27,
+      "11": 27,
+      "12": 27,
+      "13": 27,
+      "14": 27,
+      "15": 27,
+      "16": 27,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0
+    },
+    "f": {
+      "0": 119,
+      "1": 27,
+      "2": 27,
+      "3": 0
+    },
+    "b": {
+      "0": [
+        28,
+        0
+      ],
+      "1": [
+        0,
+        28
+      ],
+      "2": [
+        28,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/routes.tsx"
+      ],
+      "mappings": "AAS+B;AAT/B,SAAS,OAAO,cAAc;AAC9B,OAAO,UAAU;AACjB,OAAO,WAAW;AAClB,OAAO,aAAa;AACpB,OAAO,cAAc;AAErB,SAAS,WAAW;AAClB,SACE,uBAAC,UACC;AAAA,2BAAC,SAAM,MAAK,KAAI,SAAS,uBAAC,UAAD;AAAA;AAAA;AAAA;AAAA,WAAM,KAA/B;AAAA;AAAA;AAAA;AAAA,WAAmC;AAAA,IACnC,uBAAC,SAAM,MAAK,aAAY,SAAS,uBAAC,aAAD;AAAA;AAAA;AAAA;AAAA,WAAS,KAA1C;AAAA;AAAA;AAAA;AAAA,WAA8C;AAAA,IAC9C,uBAAC,SAAM,MAAK,cAAa,SAAS,uBAAC,cAAa,eAAd;AAAA;AAAA;AAAA;AAAA,WAA4B,KAA9D;AAAA;AAAA;AAAA;AAAA,WAAkE;AAAA,IAClE,uBAAC,SAAM,MAAK,KAAI,SAAS,uBAAC,WAAD;AAAA;AAAA;AAAA;AAAA,WAAO,KAAhC;AAAA;AAAA;AAAA;AAAA,WAAoC;AAAA,OAJtC;AAAA;AAAA;AAAA;AAAA,SAKA;AAEJ;AAEA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "75a4ca9164d2e41a7e77ec34337974e685eb763e"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/redux/store.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/redux/store.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 20
+        },
+        "end": {
+          "line": 10,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 11,
+          "column": 14
+        },
+        "end": {
+          "line": 14,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 13,
+          "column": 40
+        },
+        "end": {
+          "line": 13,
+          "column": 90
+        }
+      },
+      "3": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 31
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 15
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 40
+          },
+          "end": {
+            "line": 13,
+            "column": 90
+          }
+        },
+        "line": 13
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 119,
+      "1": 119,
+      "2": 119,
+      "3": 119
+    },
+    "f": {
+      "0": 119
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/redux/store.tsx"
+      ],
+      "mappings": "AAAA,SAAS,gBAAgB,uBAAuB;AAChD,SAAS,sBAAsB;AAC/B,SAAS,mBAAmB;AAC5B,SAAS,qBAAqB;AAC9B,SAAS,gBAAgB;AAEzB,MAAM,cAAc,gBAAgB;AAAA,EAClC,WAAW,YAAY;AAAA,EACvB,QAAQ,cAAc;AAAA,EACtB,YAAY,SAAS;AACvB,CAAC;AAED,MAAM,QAAQ,eAAe;AAAA,EAC3B,SAAS;AAAA,EACT,YAAY,CAAC,yBACX,qBAAqB,EAAE,OAAO,SAAS,UAAU;AACrD,CAAC;AAED,eAAe,MAAM,QAAQ;AAE7B,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "25bb9709e5fa0233aebf5023b7d536d7bfc2e826"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/Navbar.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/Navbar.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 40,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Navbar",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 9
+          },
+          "end": {
+            "line": 3,
+            "column": 15
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 18
+          },
+          "end": {
+            "line": 41,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 158,
+      "1": 27,
+      "2": 0,
+      "3": 27,
+      "4": 27,
+      "5": 27,
+      "6": 27,
+      "7": 27,
+      "8": 39,
+      "9": 27,
+      "10": 27,
+      "11": 27,
+      "12": 27,
+      "13": 27,
+      "14": 27,
+      "15": 27,
+      "16": 27,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0
+    },
+    "f": {
+      "0": 158,
+      "1": 39,
+      "2": 27,
+      "3": 0
+    },
+    "b": {
+      "0": [
+        28,
+        0
+      ],
+      "1": [
+        0,
+        28
+      ],
+      "2": [
+        28,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/Navbar.tsx"
+      ],
+      "mappings": "AAQU;AAPV,SAAS,eAAe;AAExB,SAAS,SAAS;AAChB,SACE,uBAAC,SAAI,WAAU,OACb,iCAAC,QAAG,WAAU,WACZ;AAAA,2BAAC,QAAG,WAAU,WACZ,iCAAC,WAAQ,IAAG,KAAI,WAAU,aAAY,yBAAtC;AAAA;AAAA;AAAA;AAAA,WAEA,KAHF;AAAA;AAAA;AAAA;AAAA,WAIA;AAAA,IACA,uBAAC,QAAG,WAAU,WACZ,iCAAC,WAAQ,IAAG,aAAY,WAAU,aAAY,wBAA9C;AAAA;AAAA;AAAA;AAAA,WAEA,KAHF;AAAA;AAAA;AAAA;AAAA,WAIA;AAAA,IACA,uBAAC,QAAG,WAAU,WACZ,iCAAC,WAAQ,IAAG,cAAa,WAAU,aAAY,yBAA/C;AAAA;AAAA;AAAA;AAAA,WAEA,KAHF;AAAA;AAAA;AAAA;AAAA,WAIA;AAAA,OAfF;AAAA;AAAA;AAAA;AAAA,SAgBA,KAjBF;AAAA;AAAA;AAAA;AAAA,SAkBA;AAEJ;AACA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ab24661d96cbdf42065c4d018abb4cb0fcbe2e0c"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/Header.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/Header.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Header",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 9
+          },
+          "end": {
+            "line": 3,
+            "column": 15
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 18
+          },
+          "end": {
+            "line": 13,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 158,
+      "1": 27,
+      "2": 0,
+      "3": 27,
+      "4": 27,
+      "5": 27,
+      "6": 27,
+      "7": 27,
+      "8": 39,
+      "9": 27,
+      "10": 27,
+      "11": 27,
+      "12": 27,
+      "13": 27,
+      "14": 27,
+      "15": 27,
+      "16": 27,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0
+    },
+    "f": {
+      "0": 158,
+      "1": 39,
+      "2": 27,
+      "3": 0
+    },
+    "b": {
+      "0": [
+        28,
+        0
+      ],
+      "1": [
+        0,
+        28
+      ],
+      "2": [
+        28,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/Header.tsx"
+      ],
+      "mappings": "AAMM;AALN,OAAO,YAAY;AAEnB,SAAS,SAAS;AAChB,SACE,uBAAC,YAAO,WAAU,UAChB,iCAAC,YAAD;AAAA;AAAA;AAAA;AAAA,SAAQ,KADV;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;AACA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "3e0056ac21bda49c4d95bddeb4effc7d1c8a2f6a"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/ClientApp.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/ClientApp.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 40,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 22
+        },
+        "end": {
+          "line": 10,
+          "column": 53
+        }
+      },
+      "2": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 39,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 12,
+          "column": 4
+        },
+        "end": {
+          "line": 38,
+          "column": 6
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 0
+          },
+          "end": {
+            "line": 40,
+            "column": 1
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 0
+            },
+            "end": {
+              "line": 40,
+              "column": 1
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 9
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 2
+          },
+          "end": {
+            "line": 39,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 11,
+              "column": 2
+            },
+            "end": {
+              "line": 39,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 11
+      }
+    },
+    "s": {
+      "0": 119,
+      "1": 119,
+      "2": 119,
+      "3": 119
+    },
+    "f": {},
+    "b": {
+      "0": [
+        119,
+        0
+      ],
+      "1": [
+        119,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/ClientApp.tsx"
+      ],
+      "mappings": "AAgBY;AAhBZ,SAAS,mBAAmB;AAC5B,SAAS,qBAAqB;AAC9B,SAAS,gBAAgB;AACzB,OAAO,cAAc;AACrB,OAAO,WAAW;AAClB,OAAO,YAAY;AACnB,OAAO;AAEP,IAAI,OAAO,WAAW,aAAa;AACjC,QAAM,cAAc,SAAS,eAAe,MAAM;AAClD,MAAI,aAAa;AACf;AAAA,MACE;AAAA,MACA,uBAAC,YAAS,OACR,iCAAC,iBACC,iCAAC,SACC;AAAA,+BAAC,YAAD;AAAA;AAAA;AAAA;AAAA,eAAQ;AAAA,QACR,uBAAC,cAAD;AAAA;AAAA;AAAA;AAAA,eAAU;AAAA,WAFZ;AAAA;AAAA;AAAA;AAAA,aAGA,KAJF;AAAA;AAAA;AAAA;AAAA,aAKA,KANF;AAAA;AAAA;AAAA;AAAA,aAOA;AAAA,IACF;AAAA,EACF;AACF;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "7ac957ab7218a494c1167642eb188a08ea6dca5f"
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/ServerApp.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/ServerApp.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/vite-env.d.ts": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/vite-env.d.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/apiFunctions.test.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/apiFunctions.test.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/navBar.test.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/navBar.test.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/aboutUs.test.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/aboutUs.test.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/error.test.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/pages/error.test.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/test/setup.ts": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/test/setup.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/types/types.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/types/types.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/CardBtns.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/CardBtns.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/CardInfo.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/CardInfo.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/CardName.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/cards/CardName.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/formCard.test.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/formCard.test.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/formCardList.test.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/formCardList.test.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/formComponentHook.test.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/formComponentHook.test.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/validationFunctions.test.tsx": {
+    "path": "C:/Users/Alisa/OneDrive/Desktop/SSR/React/y/src/components/form/validationFunctions.test.tsx",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  }
+}

@@ -10,7 +10,10 @@ export const formReducer = createSlice({
   initialState,
   reducers: {
     setFormCard: (state, action: IFormCardAction) => {
-      state.formCards.push(action.payload);
+      return {
+        ...state,
+        formCards: [...state.formCards, action.payload],
+      };
     },
   },
 });
